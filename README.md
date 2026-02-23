@@ -1,4 +1,4 @@
-#DigiOnto: Ontology Requirements Specification
+# DigiOnto: Ontology Requirements Specification
 
 Bienvenidos al repositorio oficial del **Grupo 4** para la práctica de Especificación de Requisitos Ontológicos. 
 
@@ -21,7 +21,7 @@ La ontología se basa en la integración de las siguientes fuentes:
 
 ##  Autores - Grupo 4
 * Miguel Díaz Martín
-* Íñigo Rodríguez Saito_
+* Íñigo Rodríguez Saito
 * Andrés Knyshayid Voronovskyy
 * Jose Gómez Monjo
 
