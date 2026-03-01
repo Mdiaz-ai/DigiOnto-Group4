@@ -16,5 +16,6 @@ req-14;"Toda habilidad modelada en esta ontología debe pertenecer estrictamente
 req-15;Todo Digimon debe tener exactamente un Tipo (Type).;;Proposed;Restricción lógica de cardinalidad exacta 1.;DigiDB.csv (Type);req-03;
 req-16;Todo Digimon debe tener exactamente un Atributo (Attribute).;;Proposed;Restricción lógica de cardinalidad exacta 1.;DigiDB.csv (Attribute);req-04;
 req-17;¿Qué habilidad pasiva (Ability) especial tiene el Digimon?;Un texto con el nombre de su rasgo único.;Proposed;Reemplaza a 'Memory' para aportar más valor semántico al ecosistema.;DigiDB.csv (Ability);req-01;
-
-
+req-18;¿Una Habilidad de Soporte afecta estadísticas, condiciones o atributos de combate?;Si,no;Proposed;Dependiendo de la habilidad modifica sus condiciones y/o estadisticas en un combate;DigiDB_supportlist.csv;;
+req-19;¿Puede una misma Habilidad de Soporte estar asociada a múltiples Digimon?;Si,no;Proposed;Depende de si es una habilidad unica o no;DigiDB_supportlist.csv;;
+req-20;Todo Digimon debe pertenecer exactamente a una Etapa Evolutiva (Stage).;;Proposed;Restricción lógica de cardinalidad exacta 1.;DigiDB,csv (Stage);;
