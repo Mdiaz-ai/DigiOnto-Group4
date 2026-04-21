@@ -9,9 +9,13 @@ Este proyecto define los requisitos funcionales y no funcionales para la creaci�
 Para cumplir con los criterios de evaluación de la asignatura, este repositorio contiene los siguientes entregables:
 
 *  **`OntologyRequirements_Updated.csv`**: Archivo principal que contiene los 20 requisitos funcionales formateados como Preguntas de Competencia (Competency Questions).
+
 *  **`use_cases.md`**: Documento que detalla los 2 casos de uso principales (Team Builder competitivo y Enciclopedia Semántica) que motivan el desarrollo de esta ontología.
+
 *  **`discarded_fields.md`**: Justificación técnica de las variables y columnas de los datasets originales que han sido excluidas del modelado conceptual.
+
 *  **`datasets_links.md`**: Referencias y enlaces a los datasets utilizados (DigiDB principal y Movelist extendido) extraídos de Kaggle.
+
 * **`diagramas/`**: Carpeta que contiene los diagramas conceptuales siguiendo nomenclatura Chowlk. Se incluyen dos diseños, cada una con su archivo fuente editable (`.drawio`) y su versión exportada para fácil visualización (`.pdf`):
   * **Diagrama Inicial**: Primer borrador del modelo conceptual (`diagrama_inicial.drawio` y `Chowlk_Developing.drawio.pdf`).
   * **Diagrama Corregido**: Versión final refinada tras aplicar las correcciones pertinentes (`diagrama_corregido.drawio` y `diagrama_corregido.drawio.pdf`).
