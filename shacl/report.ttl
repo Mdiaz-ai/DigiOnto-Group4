@@ -1,0 +1,49 @@
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:InConstraintComponent ;
+	sh:sourceShape _:n239 ;
+	sh:focusNode <http://example.org/digimon#ErrorMon_Type> ;
+	sh:value <http://example.org/digimon#MagicType> ;
+	sh:resultPath <http://example.org/digimon#hasType> ;
+	sh:resultMessage "Error Semántico: El tipo debe ser uno de los valores permitidos (Vaccine, Virus, Data o Free)." ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n238 ;
+	sh:focusNode <http://example.org/digimon#ErrorMon_NoStage> ;
+	sh:resultPath <http://example.org/digimon#hasEvolutionStage> ;
+	sh:resultMessage "Error de Cardinalidad: Se requiere exactamente una etapa evolutiva definida." ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:DatatypeConstraintComponent ;
+	sh:sourceShape _:n242 ;
+	sh:focusNode <http://example.org/digimon#ErrorMon_Stats> ;
+	sh:value "Muy alto" ;
+	sh:resultPath <http://example.org/digimon#hp> ;
+	sh:resultMessage "Error de Datos: Los puntos de salud (HP) deben ser un valor entero no negativo." ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+	sh:sourceShape _:n242 ;
+	sh:focusNode <http://example.org/digimon#ErrorMon_Stats> ;
+	sh:value "Muy alto" ;
+	sh:resultPath <http://example.org/digimon#hp> ;
+	sh:resultMessage "Error de Datos: Los puntos de salud (HP) deben ser un valor entero no negativo." ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+	sh:sourceShape _:n243 ;
+	sh:focusNode <http://example.org/digimon#ErrorMon_Stats> ;
+	sh:value -10 ;
+	sh:resultPath <http://example.org/digimon#spd> ;
+	sh:resultMessage "La velocidad (Spd) debe ser un valor numérico entero." ;
+] .
