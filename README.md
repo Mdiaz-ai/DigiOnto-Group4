@@ -36,7 +36,7 @@ La ontología se basa en la integración de las siguientes fuentes:
 * Miguel Díaz Martín
 * Íñigo Rodríguez Saito
 * Andrés Knyshayid Voronovskyy
-* Jose Gómez Monjo
+* José Gómez Monjo
 
 ---
 *Práctica desarrollada para la asignatura de Developing Open, Interoperable Semantic Resources.*
