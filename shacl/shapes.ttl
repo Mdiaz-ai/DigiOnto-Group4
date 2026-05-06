@@ -69,3 +69,37 @@ ns:MoveShape
         sh:minCount 1 ;
         sh:message "Todo movimiento debe especificar un coste de SP (entero >= 0)." ;
     ] .
+
+ns:LearnMoveShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Digimon ;
+
+    sh:property [
+        sh:path ns:learnsMove ;
+        sh:class ns:Move ;
+        sh:minCount 1 ;
+        sh:message "Todo Digimon debe aprender al menos un Move válido." ;
+    ] .
+
+ns:MoveElementShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Move ;
+
+    sh:property [
+        sh:path ns:hasMoveElement ;
+        sh:class ns:Element ;
+        sh:minCount 1 ;
+        sh:message "El movimiento debe tener un elemento válido." ;
+    ] .
+
+# req-12
+ns:SupportMoveShape
+    a sh:NodeShape ;
+    sh:targetClass ns:SupportMove ;
+
+    sh:property [
+        sh:path ns:description ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:message "Una habilidad de soporte debe tener una descripción." ;
+    ] .
