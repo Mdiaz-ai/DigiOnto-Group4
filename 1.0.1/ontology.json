@@ -49,6 +49,9 @@
     "@value" : "https://www.apache.org/licenses/LICENSE-2.0"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/source",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://purl.org/dc/terms/source" : [ {
@@ -84,6 +87,14 @@
 }, {
   "@id" : "http://w3id.org/doisr/digiOntoG4",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@language" : "es",
+    "@value" : "Gómez Monjo, José., Díaz Martín, Miguel., Rodríguez Saito, Íñigo., and Voronovskyy, Andrés. K. (2026). DigiOnto: Ontología semántica del universo Digimon. Version 1.0.1."
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-05-18"
+  } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Grupo 4"
   } ],
@@ -91,8 +102,19 @@
     "@language" : "es",
     "@value" : "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."
   } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-05-18"
+  } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://www.apache.org/licenses/LICENSE-2.0"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@language" : "es",
+    "@value" : "Universidad Politécnica de Madrid"
+  } ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "DigiDB.csv and DigiDB_movelist.csv DigiDB_supportlist.csv datasets"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "DigiOnto"

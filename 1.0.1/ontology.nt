@@ -1,8 +1,13 @@
 <http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/2002/07/owl#versionIRI> <https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html> .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/bibliographicCitation> "Gómez Monjo, José., Díaz Martín, Miguel., Rodríguez Saito, Íñigo., and Voronovskyy, Andrés. K. (2026). DigiOnto: Ontología semántica del universo Digimon. Version 1.0.1."@es .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/created> "2026-05-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/creator> "Grupo 4" .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/description> "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."@es .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/issued> "2026-05-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/publisher> "Universidad Politécnica de Madrid"@es .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/source> "DigiDB.csv and DigiDB_movelist.csv DigiDB_supportlist.csv datasets" .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/title> "DigiOnto" .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/vocab/vann/preferredNamespacePrefix> "digiOntoG4" .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/doisr/digiOntoG4#" .
@@ -18,11 +23,9 @@
 # 
 # http://purl.org/dc/terms/bibliographicCitation
 <http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/terms/bibliographicCitation> <http://purl.org/dc/terms/bibliographicCitation> "Gómez Monjo, J., Díaz Martín, M., Rodríguez Saito, Í., & Voronovskyy, A. K. (2026). DigiOnto: Ontología semántica del universo Digimon. Versión 1.0.1." .
 # 
 # http://purl.org/dc/terms/created
 <http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/terms/created> <http://purl.org/dc/terms/description> "2026-05-18" .
 # 
 # http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -32,14 +35,15 @@
 # 
 # http://purl.org/dc/terms/issued
 <http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/terms/issued> <http://purl.org/dc/terms/issued> "2026-05-18" .
 # 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/source
 <http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/terms/source> <http://purl.org/dc/terms/source> "https://www.kaggle.com/datasets/rtatman/digidb" .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -420,11 +424,19 @@
 # #################################################################
 # 
 # 
+<http://purl.org/dc/terms/bibliographicCitation> <http://purl.org/dc/terms/bibliographicCitation> "Gómez Monjo, J., Díaz Martín, M., Rodríguez Saito, Í., & Voronovskyy, A. K. (2026). DigiOnto: Ontología semántica del universo Digimon. Versión 1.0.1." .
+# 
+<http://purl.org/dc/terms/created> <http://purl.org/dc/terms/description> "2026-05-18" .
+# 
 <http://purl.org/dc/terms/creator> <http://purl.org/dc/terms/creator> "Grupo4"@es .
 # 
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/description> "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."@es .
 # 
+<http://purl.org/dc/terms/issued> <http://purl.org/dc/terms/issued> "2026-05-18" .
+# 
 <http://purl.org/dc/terms/license> <http://purl.org/dc/terms/license> "https://www.apache.org/licenses/LICENSE-2.0" .
+# 
+<http://purl.org/dc/terms/source> <http://purl.org/dc/terms/source> "https://www.kaggle.com/datasets/rtatman/digidb" .
 # 
 <http://purl.org/dc/terms/title> <http://purl.org/dc/terms/title> "digiOntoG4" .
 # 
