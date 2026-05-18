@@ -59,16 +59,6 @@
 <http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty ;
-                                                      <http://purl.org/dc/terms/description> "digiOntoG4" .
-
-
-###  http://purl.org/vocab/vann/preferredNamespaceUri
-<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty ;
-                                                   <http://purl.org/dc/terms/description> "http://w3id.org/doisr/digiOntoG4#" .
-
-
 ###  http://www.w3.org/2002/07/owl#priorVersion
 owl:priorVersion owl:priorVersion "https://i-saito11.github.io/DigiOnto-Group4/1.0.0/index-en.html" .
 
