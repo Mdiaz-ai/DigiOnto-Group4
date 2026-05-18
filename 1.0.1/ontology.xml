@@ -14,6 +14,7 @@
     <owl:Ontology rdf:about="http://w3id.org/doisr/digiOntoG4">
         <owl:versionIRI rdf:resource="https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html"/>
         <terms:creator>Grupo 4</terms:creator>
+        <terms:description xml:lang="es">Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos.</terms:description>
         <terms:license rdf:resource="https://www.apache.org/licenses/LICENSE-2.0"/>
         <terms:title>DigiOnto</terms:title>
         <vann:preferredNamespacePrefix>digiOntoG4</vann:preferredNamespacePrefix>
@@ -63,9 +64,7 @@
     <!-- http://purl.org/dc/terms/description -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-        <terms:description xml:lang="es">Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos.</terms:description>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
@@ -733,6 +732,9 @@
 
     <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
         <terms:creator xml:lang="es">Grupo4</terms:creator>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+        <terms:description xml:lang="es">Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos.</terms:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/license">
         <terms:license>https://www.apache.org/licenses/LICENSE-2.0</terms:license>

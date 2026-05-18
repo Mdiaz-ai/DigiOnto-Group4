@@ -87,6 +87,10 @@
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Grupo 4"
   } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "es",
+    "@value" : "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."
+  } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://www.apache.org/licenses/LICENSE-2.0"
   } ],

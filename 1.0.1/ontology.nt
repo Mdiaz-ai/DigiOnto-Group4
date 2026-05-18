@@ -1,6 +1,7 @@
 <http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/2002/07/owl#versionIRI> <https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html> .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/creator> "Grupo 4" .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/description> "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."@es .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/title> "DigiOnto" .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/vocab/vann/preferredNamespacePrefix> "digiOntoG4" .
@@ -28,7 +29,6 @@
 # 
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/terms/description> <http://purl.org/dc/terms/description> "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."@es .
 # 
 # http://purl.org/dc/terms/issued
 <http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -421,6 +421,8 @@
 # 
 # 
 <http://purl.org/dc/terms/creator> <http://purl.org/dc/terms/creator> "Grupo4"@es .
+# 
+<http://purl.org/dc/terms/description> <http://purl.org/dc/terms/description> "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."@es .
 # 
 <http://purl.org/dc/terms/license> <http://purl.org/dc/terms/license> "https://www.apache.org/licenses/LICENSE-2.0" .
 # 
