@@ -11,7 +11,7 @@ Este proyecto define los requisitos funcionales y no funcionales para la creaci�
 El proyecto ha evolucionado y ahora se estructura en base a sus **versiones**. En la raíz del repositorio encontraréis las carpetas de las versiones publicadas (**`1.0.0/`** y **`1.0.1/`**). 
 
 Dentro de cada carpeta de versión se incluye el conjunto completo de artefactos y documentación:
-
+* **Documentación PDF del Proyecto**: Archivo pdf con la memoria pedida para el último handson.
 * **Documentación Web (Widoco)**: Archivos HTML estáticos, siendo `index-en.html` la página principal generada a partir de la ontología.
 * **Ontología (`ontology.*` y `ontologia_def_*`)**: El código fuente de la ontología disponible en múltiples formatos de serialización (OWL/XML, Turtle, N-Triples, JSON-LD).
 * **`.htaccess`**: Archivo de configuración que habilita la *Negociación de Contenido* en GitHub Pages para servir el formato adecuado según la petición del cliente.
@@ -25,7 +25,7 @@ Dentro de cada carpeta de versión se incluye el conjunto completo de artefactos
   * **`shapes.ttl`** / **`shape.ttl`**: Definición de las restricciones estructurales (Filtro de calidad) basadas en los requisitos.
   * **`data.ttl`**: Instancias de prueba del dominio Digimon (válidas y con errores inyectados).
   * **`report.ttl`**: Informe generado que documenta el cumplimiento o las violaciones de las reglas.
-**Documentación PDF del Proyecto**: Archivo pdf con la memoria pedida para el último handson.
+
 ## Fuentes de Datos
 
 La ontología se basa en la integración de las siguientes fuentes:
