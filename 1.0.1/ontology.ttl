@@ -4,6 +4,8 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @base <http://w3id.org/doisr/digiOntoG4> .
 
 <http://w3id.org/doisr/digiOntoG4> rdf:type owl:Ontology ;
@@ -12,6 +14,8 @@
                                     <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> ;
                                     <http://purl.org/dc/terms/title> "DigiOnto" ;
                                     owl:versionInfo "1.0.1" ;
+                                    vann:preferredNamespacePrefix "digiOntoG4" ;
+                                    vann:preferredNamespaceUri "http://w3id.org/doisr/digiOntoG4#" .
                                     <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 
 #################################################################
