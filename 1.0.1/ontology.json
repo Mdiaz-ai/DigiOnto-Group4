@@ -3,390 +3,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://w3id.org/digiOntoG4MagicMove"
+      "@id" : "http://w3id.org/digiOntoG4#MagicMove"
     }, {
-      "@id" : "http://w3id.org/digiOntoG4PhysicalMove"
+      "@id" : "http://w3id.org/digiOntoG4#PhysicalMove"
     }, {
-      "@id" : "http://w3id.org/digiOntoG4SupportMove"
+      "@id" : "http://w3id.org/digiOntoG4#SupportMove"
     } ]
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Dark",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Dark."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Dark"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Data",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Tipo Data."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Data"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Digimon",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Entidad que representa a una criatura Digimon."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Digimon"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Earth",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Earth."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Earth"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Electric",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Electric."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Electric"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Element",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento que tienen movimientos y Digimon."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Element"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4EvolutionStage",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Etapa de evolución de un Digimon."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Evolution Stage"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Fire",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Fire."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Fire"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Free",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Tipo Free."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Free"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Light",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Light."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Light"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4MagicMove",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Movimiento de tipo mágico, subclase de Move."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Magic Move"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Move",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Acción que puede realizar un Digimon."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Move"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4PhysicalMove",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Movimiento físico, subclase de Move."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Physical Move"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Plant",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Plant."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Plant"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4SupportMove",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Movimiento de soporte, subclase de Move."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Support Move"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4SupportSkill",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Habilidad de soporte aplicable a Digimon."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Support Skill"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Type",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Clasificación de tipo de Digimon (ej. Vaccine, Virus, Data)."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Type"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Vaccine",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Tipo Vaccine."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Vaccine"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Virus",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Tipo Virus."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Virus"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Water",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Water."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Water"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4Wind",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Elemento Wind."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "Wind"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4atk",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa el ataque."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "atk"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4def",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa la defensa."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "def"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4description",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Describe un movimiento."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "description"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4elementName",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Nombre de un elemento."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "element name"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4hasElement",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Relaciona un Digimon con su elemento."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "has element"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4hasEvolutionStage",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Relaciona un Digimon con su etapa evolutiva."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "has evolution stage"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4hasMoveElement",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Relaciona un movimiento con su elemento."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "has move element"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4hasSupportSkill",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Relaciona un Digimon con su habilidad de soporte."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "has support skill"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4hasType",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Relaciona un Digimon con su tipo."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "has type"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4hp",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa los puntos de vida."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "hp"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4inheritable",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Indica si un movimiento puede heredarse."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "inheritable"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4int",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa la inteligencia."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "int"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4isStrongAgainst",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Indica ventaja de un elemento frente a otro."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "is strong against"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4isStrongTypeAgainst",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Indica ventaja de tipo frente a otro tipo."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "is strong type against"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4learnsMove",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa los movimientos que puede aprender un Digimon."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "learns move"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4power",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa la potencia de un movimiento."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "power"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4skillName",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Nombre de una habilidad de soporte."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "skill name"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4sp",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa los puntos de habilidad."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "sp"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4spCost",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Coste de SP necesario para usar un movimiento."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "sp cost"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4spd",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Representa la velocidad."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "spd"
-  } ]
-}, {
-  "@id" : "http://example.org/digiOntoG4stageName",
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@language" : "es",
-    "@value" : "Nombre de una etapa evolutiva."
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@value" : "stage name"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/creator",
@@ -426,10 +48,10 @@
     "@id" : "https://chowlk.linkeddata.es/"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Dark",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Light"
+  "@id" : "http://w3id.org/digiOntoG4#Dark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Light"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -439,10 +61,10 @@
     "@value" : "Dark"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Data",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Type" ],
-  "http://w3id.org/digiOntoG4isStrongTypeAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Vaccine"
+  "@id" : "http://w3id.org/digiOntoG4#Data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Type" ],
+  "http://w3id.org/digiOntoG4#isStrongTypeAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Vaccine"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -452,7 +74,7 @@
     "@value" : "Data"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Digimon",
+  "@id" : "http://w3id.org/digiOntoG4#Digimon",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Digimon"
@@ -465,10 +87,10 @@
     "@value" : "Digimon"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Earth",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Electric"
+  "@id" : "http://w3id.org/digiOntoG4#Earth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Electric"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -478,10 +100,10 @@
     "@value" : "Earth"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Electric",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Wind"
+  "@id" : "http://w3id.org/digiOntoG4#Electric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Wind"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -491,7 +113,7 @@
     "@value" : "Electric"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Element",
+  "@id" : "http://w3id.org/digiOntoG4#Element",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Element"
@@ -504,7 +126,7 @@
     "@value" : "Element"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4EvolutionStage",
+  "@id" : "http://w3id.org/digiOntoG4#EvolutionStage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Evolution Stage"
@@ -517,10 +139,10 @@
     "@value" : "Evolution Stage"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Fire",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Plant"
+  "@id" : "http://w3id.org/digiOntoG4#Fire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Plant"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -530,8 +152,8 @@
     "@value" : "Fire"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Free",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Type" ],
+  "@id" : "http://w3id.org/digiOntoG4#Free",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Type" ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
     "@value" : "Tipo Free."
@@ -540,10 +162,10 @@
     "@value" : "Free"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Light",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Dark"
+  "@id" : "http://w3id.org/digiOntoG4#Light",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Dark"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -553,13 +175,13 @@
     "@value" : "Light"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4MagicMove",
+  "@id" : "http://w3id.org/digiOntoG4#MagicMove",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Magic Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -569,7 +191,7 @@
     "@value" : "Magic Move"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Move",
+  "@id" : "http://w3id.org/digiOntoG4#Move",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Move"
@@ -582,13 +204,13 @@
     "@value" : "Move"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4PhysicalMove",
+  "@id" : "http://w3id.org/digiOntoG4#PhysicalMove",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Physical Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -598,10 +220,10 @@
     "@value" : "Physical Move"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Plant",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Water"
+  "@id" : "http://w3id.org/digiOntoG4#Plant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Water"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -611,13 +233,13 @@
     "@value" : "Plant"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4SupportMove",
+  "@id" : "http://w3id.org/digiOntoG4#SupportMove",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Support Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -627,7 +249,7 @@
     "@value" : "Support Move"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4SupportSkill",
+  "@id" : "http://w3id.org/digiOntoG4#SupportSkill",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Support Skill"
@@ -640,7 +262,7 @@
     "@value" : "Support Skill"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Type",
+  "@id" : "http://w3id.org/digiOntoG4#Type",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Type"
@@ -653,10 +275,10 @@
     "@value" : "Type"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Vaccine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Type" ],
-  "http://w3id.org/digiOntoG4isStrongTypeAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Virus"
+  "@id" : "http://w3id.org/digiOntoG4#Vaccine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Type" ],
+  "http://w3id.org/digiOntoG4#isStrongTypeAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Virus"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -666,10 +288,10 @@
     "@value" : "Vaccine"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Virus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Type" ],
-  "http://w3id.org/digiOntoG4isStrongTypeAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Data"
+  "@id" : "http://w3id.org/digiOntoG4#Virus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Type" ],
+  "http://w3id.org/digiOntoG4#isStrongTypeAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Data"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -679,10 +301,10 @@
     "@value" : "Virus"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Water",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Fire"
+  "@id" : "http://w3id.org/digiOntoG4#Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Fire"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -692,10 +314,10 @@
     "@value" : "Water"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4Wind",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4Element" ],
-  "http://w3id.org/digiOntoG4isStrongAgainst" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Earth"
+  "@id" : "http://w3id.org/digiOntoG4#Wind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://w3id.org/digiOntoG4#Element" ],
+  "http://w3id.org/digiOntoG4#isStrongAgainst" : [ {
+    "@id" : "http://w3id.org/digiOntoG4#Earth"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -705,10 +327,10 @@
     "@value" : "Wind"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4atk",
+  "@id" : "http://w3id.org/digiOntoG4#atk",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "atk"
@@ -724,10 +346,10 @@
     "@value" : "atk"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4def",
+  "@id" : "http://w3id.org/digiOntoG4#def",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "def"
@@ -743,10 +365,10 @@
     "@value" : "def"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4description",
+  "@id" : "http://w3id.org/digiOntoG4#description",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "description"
@@ -762,10 +384,10 @@
     "@value" : "description"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4elementName",
+  "@id" : "http://w3id.org/digiOntoG4#elementName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Element"
+    "@id" : "http://w3id.org/digiOntoG4#Element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "element name"
@@ -781,16 +403,16 @@
     "@value" : "element name"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4hasElement",
+  "@id" : "http://w3id.org/digiOntoG4#hasElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Element"
+    "@id" : "http://w3id.org/digiOntoG4#Element"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -800,16 +422,16 @@
     "@value" : "has element"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4hasEvolutionStage",
+  "@id" : "http://w3id.org/digiOntoG4#hasEvolutionStage",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has evolution stage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4EvolutionStage"
+    "@id" : "http://w3id.org/digiOntoG4#EvolutionStage"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -819,16 +441,16 @@
     "@value" : "has evolution stage"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4hasMoveElement",
+  "@id" : "http://w3id.org/digiOntoG4#hasMoveElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has move element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Element"
+    "@id" : "http://w3id.org/digiOntoG4#Element"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -838,16 +460,16 @@
     "@value" : "has move element"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4hasSupportSkill",
+  "@id" : "http://w3id.org/digiOntoG4#hasSupportSkill",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has support skill"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4SupportSkill"
+    "@id" : "http://w3id.org/digiOntoG4#SupportSkill"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -857,16 +479,16 @@
     "@value" : "has support skill"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4hasType",
+  "@id" : "http://w3id.org/digiOntoG4#hasType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "has type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Type"
+    "@id" : "http://w3id.org/digiOntoG4#Type"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -876,10 +498,10 @@
     "@value" : "has type"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4hp",
+  "@id" : "http://w3id.org/digiOntoG4#hp",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "hp"
@@ -895,10 +517,10 @@
     "@value" : "hp"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4inheritable",
+  "@id" : "http://w3id.org/digiOntoG4#inheritable",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "inheritable"
@@ -914,10 +536,10 @@
     "@value" : "inheritable"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4int",
+  "@id" : "http://w3id.org/digiOntoG4#int",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "int"
@@ -933,16 +555,16 @@
     "@value" : "int"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4isStrongAgainst",
+  "@id" : "http://w3id.org/digiOntoG4#isStrongAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Element"
+    "@id" : "http://w3id.org/digiOntoG4#Element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "is strong against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Element"
+    "@id" : "http://w3id.org/digiOntoG4#Element"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -952,16 +574,16 @@
     "@value" : "is strong against"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4isStrongTypeAgainst",
+  "@id" : "http://w3id.org/digiOntoG4#isStrongTypeAgainst",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Type"
+    "@id" : "http://w3id.org/digiOntoG4#Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "is strong type against"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Type"
+    "@id" : "http://w3id.org/digiOntoG4#Type"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -971,16 +593,16 @@
     "@value" : "is strong type against"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4learnsMove",
+  "@id" : "http://w3id.org/digiOntoG4#learnsMove",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "learns move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
@@ -990,10 +612,10 @@
     "@value" : "learns move"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4power",
+  "@id" : "http://w3id.org/digiOntoG4#power",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "power"
@@ -1009,10 +631,10 @@
     "@value" : "power"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4skillName",
+  "@id" : "http://w3id.org/digiOntoG4#skillName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4SupportSkill"
+    "@id" : "http://w3id.org/digiOntoG4#SupportSkill"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "skill name"
@@ -1028,10 +650,10 @@
     "@value" : "skill name"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4sp",
+  "@id" : "http://w3id.org/digiOntoG4#sp",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "sp"
@@ -1047,10 +669,10 @@
     "@value" : "sp"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4spCost",
+  "@id" : "http://w3id.org/digiOntoG4#spCost",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Move"
+    "@id" : "http://w3id.org/digiOntoG4#Move"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "sp cost"
@@ -1066,10 +688,10 @@
     "@value" : "sp cost"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4spd",
+  "@id" : "http://w3id.org/digiOntoG4#spd",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4Digimon"
+    "@id" : "http://w3id.org/digiOntoG4#Digimon"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "spd"
@@ -1085,10 +707,10 @@
     "@value" : "spd"
   } ]
 }, {
-  "@id" : "http://w3id.org/digiOntoG4stageName",
+  "@id" : "http://w3id.org/digiOntoG4#stageName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://w3id.org/digiOntoG4EvolutionStage"
+    "@id" : "http://w3id.org/digiOntoG4#EvolutionStage"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "stage name"
