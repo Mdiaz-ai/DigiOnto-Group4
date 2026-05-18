@@ -15,7 +15,7 @@
                                     <http://purl.org/dc/terms/title> "DigiOnto" ;
                                     owl:versionInfo "1.0.1" ;
                                     vann:preferredNamespacePrefix "digiOntoG4" ;
-                                    vann:preferredNamespaceUri "http://w3id.org/doisr/digiOntoG4#" .
+                                    vann:preferredNamespaceUri "http://w3id.org/doisr/digiOntoG4#" ;
                                     <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 
 #################################################################
