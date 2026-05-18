@@ -8,6 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:digiOntoG4="http://w3id.org/doisr/digiOntoG4#">
     <owl:Ontology rdf:about="http://w3id.org/doisr/digiOntoG4">
@@ -33,10 +34,46 @@
     
 
 
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation">
+        <terms:bibliographicCitation>Gómez Monjo, J., Díaz Martín, M., Rodríguez Saito, Í., &amp; Voronovskyy, A. K. (2026). DigiOnto: Ontología semántica del universo Digimon. Versión 1.0.1.</terms:bibliographicCitation>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created">
+        <terms:description>2026-05-18</terms:description>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/terms/creator -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
+        <terms:description xml:lang="es">Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos.</terms:description>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued">
+        <terms:issued>2026-05-18</terms:issued>
+    </owl:AnnotationProperty>
     
 
 
@@ -47,6 +84,15 @@
     
 
 
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source">
+        <terms:source>https://www.kaggle.com/datasets/rtatman/digidb</terms:source>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/terms/title -->
 
 
@@ -54,11 +100,29 @@
     
 
 
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
+        <terms:description>digiOntoG4</terms:description>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri">
+        <terms:description>http://w3id.org/doisr/digiOntoG4#</terms:description>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2002/07/owl#priorVersion -->
 
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
-        <owl:priorVersion>1.0.0</owl:priorVersion>
+        <owl:priorVersion>https://i-saito11.github.io/DigiOnto-Group4/1.0.0/index-en.html</owl:priorVersion>
     </rdf:Description>
     
 

@@ -11,11 +11,36 @@
     } ]
   } ]
 }, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@value" : "Gómez Monjo, J., Díaz Martín, M., Rodríguez Saito, Í., & Voronovskyy, A. K. (2026). DigiOnto: Ontología semántica del universo Digimon. Versión 1.0.1."
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "2026-05-18"
+  } ]
+}, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "es",
     "@value" : "Grupo4"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "es",
+    "@value" : "Ontología semántica del universo Digimon para representar criaturas, estadísticas, tipos, elementos, etapas evolutivas y movimientos."
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2026-05-18"
   } ]
 }, {
   "@id" : "http://purl.org/dc/terms/license",
@@ -24,10 +49,28 @@
     "@value" : "https://www.apache.org/licenses/LICENSE-2.0"
   } ]
 }, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "https://www.kaggle.com/datasets/rtatman/digidb"
+  } ]
+}, {
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "digiOntoG4"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "digiOntoG4"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "http://w3id.org/doisr/digiOntoG4#"
   } ]
 }, {
   "@id" : "http://w3id.org/digiOntoG4#4hasSupportSkill",
@@ -749,7 +792,7 @@
 }, {
   "@id" : "http://www.w3.org/2002/07/owl#priorVersion",
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
-    "@value" : "1.0.0"
+    "@value" : "https://i-saito11.github.io/DigiOnto-Group4/1.0.0/index-en.html"
   } ]
 }, {
   "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
