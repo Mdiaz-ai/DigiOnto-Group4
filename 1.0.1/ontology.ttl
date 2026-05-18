@@ -4,8 +4,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @base <http://w3id.org/doisr/digiOntoG4> .
 
 <http://w3id.org/doisr/digiOntoG4> rdf:type owl:Ontology ;
@@ -13,10 +11,9 @@
                                     <http://purl.org/dc/terms/creator> "Grupo 4" ;
                                     <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> ;
                                     <http://purl.org/dc/terms/title> "DigiOnto" ;
-                                    owl:versionInfo "1.0.1" ;
-                                    vann:preferredNamespacePrefix "digiOntoG4" ;
-                                    vann:preferredNamespaceUri "http://w3id.org/doisr/digiOntoG4#" ;
-                                    <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+                                    <http://purl.org/vocab/vann/preferredNamespacePrefix> "digiOntoG4" ;
+                                    <http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/doisr/digiOntoG4#" ;
+                                    owl:versionInfo "1.0.1" .
 
 #################################################################
 #    Annotation properties
@@ -59,6 +56,14 @@
 <http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2002/07/owl#priorVersion
 owl:priorVersion owl:priorVersion "https://i-saito11.github.io/DigiOnto-Group4/1.0.0/index-en.html" .
 
@@ -77,7 +82,8 @@ owl:versionIRI rdf:type owl:AnnotationProperty ;
 
 
 ###  https://w3id.org/mod#createdWith
-<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty .
+<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty ;
+                                   <https://w3id.org/mod#createdWith> "Protegé, https://chowlk.linkeddata.es/" .
 
 
 #################################################################
@@ -459,6 +465,12 @@ owl:versionIRI rdf:type owl:AnnotationProperty ;
 <http://purl.org/dc/terms/title> <http://purl.org/dc/terms/title> "digiOntoG4" .
 
 
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://purl.org/dc/terms/description> "digiOntoG4" .
+
+
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://purl.org/dc/terms/description> "http://w3id.org/doisr/digiOntoG4#" .
+
+
 <http://w3id.org/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es ;
                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
 
@@ -468,9 +480,6 @@ owl:versionIRI rdf:type owl:AnnotationProperty ;
 
 
 owl:versionInfo owl:versionInfo "1.0.1" .
-
-
-<https://w3id.org/mod#createdWith> <https://w3id.org/mod#createdWith> "Protegé, https://chowlk.linkeddata.es/" .
 
 
 #################################################################

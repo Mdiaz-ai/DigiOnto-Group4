@@ -3,8 +3,9 @@
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/creator> "Grupo 4" .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> .
 <http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/title> "DigiOnto" .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/vocab/vann/preferredNamespacePrefix> "digiOntoG4" .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/doisr/digiOntoG4#" .
 <http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
-<http://w3id.org/doisr/digiOntoG4> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 # 
 # 
 # #################################################################
@@ -45,11 +46,9 @@
 # 
 # http://purl.org/vocab/vann/preferredNamespacePrefix
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://purl.org/dc/terms/description> "digiOntoG4" .
 # 
 # http://purl.org/vocab/vann/preferredNamespaceUri
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/vocab/vann/preferredNamespaceUri> <http://purl.org/dc/terms/description> "http://w3id.org/doisr/digiOntoG4#" .
 # 
 # http://www.w3.org/2002/07/owl#priorVersion
 <http://www.w3.org/2002/07/owl#priorVersion> <http://www.w3.org/2002/07/owl#priorVersion> "https://i-saito11.github.io/DigiOnto-Group4/1.0.0/index-en.html" .
@@ -66,6 +65,7 @@
 # 
 # https://w3id.org/mod#createdWith
 <https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://w3id.org/mod#createdWith> <https://w3id.org/mod#createdWith> "Protegé, https://chowlk.linkeddata.es/" .
 # 
 # 
 # 
@@ -426,6 +426,10 @@
 # 
 <http://purl.org/dc/terms/title> <http://purl.org/dc/terms/title> "digiOntoG4" .
 # 
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://purl.org/dc/terms/description> "digiOntoG4" .
+# 
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://purl.org/dc/terms/description> "http://w3id.org/doisr/digiOntoG4#" .
+# 
 <http://w3id.org/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es .
 <http://w3id.org/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
 # 
@@ -433,8 +437,6 @@
 <http://w3id.org/doisr/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
 # 
 <http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
-# 
-<https://w3id.org/mod#createdWith> <https://w3id.org/mod#createdWith> "Protegé, https://chowlk.linkeddata.es/" .
 # 
 # 
 # 

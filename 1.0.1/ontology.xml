@@ -16,8 +16,9 @@
         <terms:creator>Grupo 4</terms:creator>
         <terms:license rdf:resource="https://www.apache.org/licenses/LICENSE-2.0"/>
         <terms:title>DigiOnto</terms:title>
+        <vann:preferredNamespacePrefix>digiOntoG4</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://w3id.org/doisr/digiOntoG4#</vann:preferredNamespaceUri>
         <owl:versionInfo>1.0.1</owl:versionInfo>
-        <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
     </owl:Ontology>
     
 
@@ -103,18 +104,14 @@
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
-        <terms:description>digiOntoG4</terms:description>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
     
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri">
-        <terms:description>http://w3id.org/doisr/digiOntoG4#</terms:description>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -153,7 +150,9 @@
     <!-- https://w3id.org/mod#createdWith -->
 
 
-    <owl:AnnotationProperty rdf:about="https://w3id.org/mod#createdWith"/>
+    <owl:AnnotationProperty rdf:about="https://w3id.org/mod#createdWith">
+        <mod:createdWith>Protegé, https://chowlk.linkeddata.es/</mod:createdWith>
+    </owl:AnnotationProperty>
     
 
 
@@ -741,6 +740,12 @@
     <rdf:Description rdf:about="http://purl.org/dc/terms/title">
         <terms:title>digiOntoG4</terms:title>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
+        <terms:description>digiOntoG4</terms:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri">
+        <terms:description>http://w3id.org/doisr/digiOntoG4#</terms:description>
+    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/digiOntoG4#4hasSupportSkill">
         <skos:definition xml:lang="es">Relaciona un Digimon con su habilidad de soporte.</skos:definition>
         <skos:prefLabel>has support skill</skos:prefLabel>
@@ -751,9 +756,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
         <owl:versionInfo>1.0.1</owl:versionInfo>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://w3id.org/mod#createdWith">
-        <mod:createdWith>Protegé, https://chowlk.linkeddata.es/</mod:createdWith>
     </rdf:Description>
     
 

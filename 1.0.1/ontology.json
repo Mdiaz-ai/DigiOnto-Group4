@@ -93,14 +93,17 @@
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "DigiOnto"
   } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "digiOntoG4"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://w3id.org/doisr/digiOntoG4#"
+  } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "1.0.1"
-  } ],
-  "https://w3id.org/mod#createdWith" : [ {
-    "@id" : "https://chowlk.linkeddata.es/"
   } ]
 }, {
   "@id" : "http://w3id.org/doisr/digiOntoG4#4hasSupportSkill",
