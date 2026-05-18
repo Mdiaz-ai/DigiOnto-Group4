@@ -4,8 +4,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms> .
-@prefix vann: <http://purl.org/vocab/vann> . 
 @base <http://w3id.org/doisr/digiOntoG4> .
 
 <http://w3id.org/doisr/digiOntoG4> rdf:type owl:Ontology ;
