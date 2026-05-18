@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://w3id.org/digiOntoG4#"
-     xml:base="http://w3id.org/digiOntoG4"
+<rdf:RDF xmlns="http://w3id.org/doisr/digiOntoG4#"
+     xml:base="http://w3id.org/doisr/digiOntoG4"
      xmlns:mod="https://w3id.org/mod#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,8 +9,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:digiOntoG4="http://w3id.org/digiOntoG4#">
-    <owl:Ontology rdf:about="http://w3id.org/digiOntoG4">
+     xmlns:digiOntoG4="http://w3id.org/doisr/digiOntoG4#">
+    <owl:Ontology rdf:about="http://w3id.org/doisr/digiOntoG4">
+        <owl:versionIRI rdf:resource="https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html"/>
         <terms:creator>Grupo 4</terms:creator>
         <terms:license rdf:resource="https://www.apache.org/licenses/LICENSE-2.0"/>
         <terms:title>DigiOnto</terms:title>
@@ -62,6 +63,15 @@
     
 
 
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI">
+        <owl:versionIRI>https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html</owl:versionIRI>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
 
@@ -95,12 +105,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#hasElement -->
+    <!-- http://w3id.org/doisr/digiOntoG4#hasElement -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#hasElement">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#Element"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#hasElement">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
         <rdfs:label>has element</rdfs:label>
         <skos:definition xml:lang="es">Relaciona un Digimon con su elemento.</skos:definition>
         <skos:prefLabel>has element</skos:prefLabel>
@@ -108,12 +118,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#hasEvolutionStage -->
+    <!-- http://w3id.org/doisr/digiOntoG4#hasEvolutionStage -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#hasEvolutionStage">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#EvolutionStage"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#hasEvolutionStage">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#EvolutionStage"/>
         <rdfs:label>has evolution stage</rdfs:label>
         <skos:definition xml:lang="es">Relaciona un Digimon con su etapa evolutiva.</skos:definition>
         <skos:prefLabel>has evolution stage</skos:prefLabel>
@@ -121,12 +131,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#hasMoveElement -->
+    <!-- http://w3id.org/doisr/digiOntoG4#hasMoveElement -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#hasMoveElement">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Move"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#Element"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#hasMoveElement">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
         <rdfs:label>has move element</rdfs:label>
         <skos:definition xml:lang="es">Relaciona un movimiento con su elemento.</skos:definition>
         <skos:prefLabel>has move element</skos:prefLabel>
@@ -134,12 +144,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#hasSupportSkill -->
+    <!-- http://w3id.org/doisr/digiOntoG4#hasSupportSkill -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#hasSupportSkill">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#SupportSkill"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#hasSupportSkill">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#SupportSkill"/>
         <rdfs:label>has support skill</rdfs:label>
         <skos:definition xml:lang="es">Relaciona un Digimon con su habilidad de soporte.</skos:definition>
         <skos:prefLabel>has support skill</skos:prefLabel>
@@ -147,12 +157,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#hasType -->
+    <!-- http://w3id.org/doisr/digiOntoG4#hasType -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#hasType">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#Type"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#hasType">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#Type"/>
         <rdfs:label>has type</rdfs:label>
         <skos:definition xml:lang="es">Relaciona un Digimon con su tipo.</skos:definition>
         <skos:prefLabel>has type</skos:prefLabel>
@@ -160,12 +170,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#isStrongAgainst -->
+    <!-- http://w3id.org/doisr/digiOntoG4#isStrongAgainst -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#isStrongAgainst">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#Element"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#isStrongAgainst">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
         <rdfs:label>is strong against</rdfs:label>
         <skos:definition xml:lang="es">Indica ventaja de un elemento frente a otro.</skos:definition>
         <skos:prefLabel>is strong against</skos:prefLabel>
@@ -173,12 +183,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#isStrongTypeAgainst -->
+    <!-- http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#isStrongTypeAgainst">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Type"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#Type"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Type"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#Type"/>
         <rdfs:label>is strong type against</rdfs:label>
         <skos:definition xml:lang="es">Indica ventaja de tipo frente a otro tipo.</skos:definition>
         <skos:prefLabel>is strong type against</skos:prefLabel>
@@ -186,12 +196,12 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#learnsMove -->
+    <!-- http://w3id.org/doisr/digiOntoG4#learnsMove -->
 
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/digiOntoG4#learnsMove">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
-        <rdfs:range rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/doisr/digiOntoG4#learnsMove">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
+        <rdfs:range rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:label>learns move</rdfs:label>
         <skos:definition xml:lang="es">Representa los movimientos que puede aprender un Digimon.</skos:definition>
         <skos:prefLabel>learns move</skos:prefLabel>
@@ -211,11 +221,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#atk -->
+    <!-- http://w3id.org/doisr/digiOntoG4#atk -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#atk">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#atk">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>atk</rdfs:label>
         <skos:definition xml:lang="es">Representa el ataque.</skos:definition>
@@ -224,11 +234,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#def -->
+    <!-- http://w3id.org/doisr/digiOntoG4#def -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#def">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#def">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>def</rdfs:label>
         <skos:definition xml:lang="es">Representa la defensa.</skos:definition>
@@ -237,11 +247,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#description -->
+    <!-- http://w3id.org/doisr/digiOntoG4#description -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#description">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#description">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>description</rdfs:label>
         <skos:definition xml:lang="es">Describe un movimiento.</skos:definition>
@@ -250,11 +260,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#elementName -->
+    <!-- http://w3id.org/doisr/digiOntoG4#elementName -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#elementName">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Element"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#elementName">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>element name</rdfs:label>
         <skos:definition xml:lang="es">Nombre de un elemento.</skos:definition>
@@ -263,11 +273,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#hp -->
+    <!-- http://w3id.org/doisr/digiOntoG4#hp -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#hp">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#hp">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>hp</rdfs:label>
         <skos:definition xml:lang="es">Representa los puntos de vida.</skos:definition>
@@ -276,11 +286,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#inheritable -->
+    <!-- http://w3id.org/doisr/digiOntoG4#inheritable -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#inheritable">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#inheritable">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label>inheritable</rdfs:label>
         <skos:definition xml:lang="es">Indica si un movimiento puede heredarse.</skos:definition>
@@ -289,11 +299,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#int -->
+    <!-- http://w3id.org/doisr/digiOntoG4#int -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#int">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#int">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>int</rdfs:label>
         <skos:definition xml:lang="es">Representa la inteligencia.</skos:definition>
@@ -302,11 +312,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#power -->
+    <!-- http://w3id.org/doisr/digiOntoG4#power -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#power">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#power">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>power</rdfs:label>
         <skos:definition xml:lang="es">Representa la potencia de un movimiento.</skos:definition>
@@ -315,11 +325,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#skillName -->
+    <!-- http://w3id.org/doisr/digiOntoG4#skillName -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#skillName">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#SupportSkill"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#skillName">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#SupportSkill"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>skill name</rdfs:label>
         <skos:definition xml:lang="es">Nombre de una habilidad de soporte.</skos:definition>
@@ -328,11 +338,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#sp -->
+    <!-- http://w3id.org/doisr/digiOntoG4#sp -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#sp">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#sp">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>sp</rdfs:label>
         <skos:definition xml:lang="es">Representa los puntos de habilidad.</skos:definition>
@@ -341,11 +351,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#spCost -->
+    <!-- http://w3id.org/doisr/digiOntoG4#spCost -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#spCost">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#spCost">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>sp cost</rdfs:label>
         <skos:definition xml:lang="es">Coste de SP necesario para usar un movimiento.</skos:definition>
@@ -354,11 +364,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#spd -->
+    <!-- http://w3id.org/doisr/digiOntoG4#spd -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#spd">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#Digimon"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#spd">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#Digimon"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label>spd</rdfs:label>
         <skos:definition xml:lang="es">Representa la velocidad.</skos:definition>
@@ -367,11 +377,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#stageName -->
+    <!-- http://w3id.org/doisr/digiOntoG4#stageName -->
 
 
-    <owl:DatatypeProperty rdf:about="http://w3id.org/digiOntoG4#stageName">
-        <rdfs:domain rdf:resource="http://w3id.org/digiOntoG4#EvolutionStage"/>
+    <owl:DatatypeProperty rdf:about="http://w3id.org/doisr/digiOntoG4#stageName">
+        <rdfs:domain rdf:resource="http://w3id.org/doisr/digiOntoG4#EvolutionStage"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>stage name</rdfs:label>
         <skos:definition xml:lang="es">Nombre de una etapa evolutiva.</skos:definition>
@@ -392,10 +402,10 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Digimon -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Digimon -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#Digimon">
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#Digimon">
         <rdfs:label>Digimon</rdfs:label>
         <skos:definition xml:lang="es">Entidad que representa a una criatura Digimon.</skos:definition>
         <skos:prefLabel>Digimon</skos:prefLabel>
@@ -403,10 +413,10 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Element -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Element -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#Element">
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#Element">
         <rdfs:label>Element</rdfs:label>
         <skos:definition xml:lang="es">Elemento que tienen movimientos y Digimon.</skos:definition>
         <skos:prefLabel>Element</skos:prefLabel>
@@ -414,10 +424,10 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#EvolutionStage -->
+    <!-- http://w3id.org/doisr/digiOntoG4#EvolutionStage -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#EvolutionStage">
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#EvolutionStage">
         <rdfs:label>Evolution Stage</rdfs:label>
         <skos:definition xml:lang="es">Etapa de evolución de un Digimon.</skos:definition>
         <skos:prefLabel>Evolution Stage</skos:prefLabel>
@@ -425,11 +435,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#MagicMove -->
+    <!-- http://w3id.org/doisr/digiOntoG4#MagicMove -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#MagicMove">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#MagicMove">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:label>Magic Move</rdfs:label>
         <skos:definition xml:lang="es">Movimiento de tipo mágico, subclase de Move.</skos:definition>
         <skos:prefLabel>Magic Move</skos:prefLabel>
@@ -437,10 +447,10 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Move -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Move -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#Move">
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#Move">
         <rdfs:label>Move</rdfs:label>
         <skos:definition xml:lang="es">Acción que puede realizar un Digimon.</skos:definition>
         <skos:prefLabel>Move</skos:prefLabel>
@@ -448,11 +458,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#PhysicalMove -->
+    <!-- http://w3id.org/doisr/digiOntoG4#PhysicalMove -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#PhysicalMove">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#PhysicalMove">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:label>Physical Move</rdfs:label>
         <skos:definition xml:lang="es">Movimiento físico, subclase de Move.</skos:definition>
         <skos:prefLabel>Physical Move</skos:prefLabel>
@@ -460,11 +470,11 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#SupportMove -->
+    <!-- http://w3id.org/doisr/digiOntoG4#SupportMove -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#SupportMove">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/digiOntoG4#Move"/>
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#SupportMove">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/doisr/digiOntoG4#Move"/>
         <rdfs:label>Support Move</rdfs:label>
         <skos:definition xml:lang="es">Movimiento de soporte, subclase de Move.</skos:definition>
         <skos:prefLabel>Support Move</skos:prefLabel>
@@ -472,10 +482,10 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#SupportSkill -->
+    <!-- http://w3id.org/doisr/digiOntoG4#SupportSkill -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#SupportSkill">
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#SupportSkill">
         <rdfs:label>Support Skill</rdfs:label>
         <skos:definition xml:lang="es">Habilidad de soporte aplicable a Digimon.</skos:definition>
         <skos:prefLabel>Support Skill</skos:prefLabel>
@@ -483,10 +493,10 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Type -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Type -->
 
 
-    <owl:Class rdf:about="http://w3id.org/digiOntoG4#Type">
+    <owl:Class rdf:about="http://w3id.org/doisr/digiOntoG4#Type">
         <rdfs:label>Type</rdfs:label>
         <skos:definition xml:lang="es">Clasificación de tipo de Digimon (ej. Vaccine, Virus, Data).</skos:definition>
         <skos:prefLabel>Type</skos:prefLabel>
@@ -506,143 +516,143 @@
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Dark -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Dark -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Dark">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Light"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Dark">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Light"/>
         <skos:definition xml:lang="es">Elemento Dark.</skos:definition>
         <skos:prefLabel>Dark</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Data -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Data -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Data">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Type"/>
-        <isStrongTypeAgainst rdf:resource="http://w3id.org/digiOntoG4#Vaccine"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Data">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Type"/>
+        <isStrongTypeAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Vaccine"/>
         <skos:definition xml:lang="es">Tipo Data.</skos:definition>
         <skos:prefLabel>Data</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Earth -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Earth -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Earth">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Electric"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Earth">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Electric"/>
         <skos:definition xml:lang="es">Elemento Earth.</skos:definition>
         <skos:prefLabel>Earth</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Electric -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Electric -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Electric">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Wind"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Electric">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Wind"/>
         <skos:definition xml:lang="es">Elemento Electric.</skos:definition>
         <skos:prefLabel>Electric</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Fire -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Fire -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Fire">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Plant"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Fire">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Plant"/>
         <skos:definition xml:lang="es">Elemento Fire.</skos:definition>
         <skos:prefLabel>Fire</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Free -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Free -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Free">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Type"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Free">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Type"/>
         <skos:definition xml:lang="es">Tipo Free.</skos:definition>
         <skos:prefLabel>Free</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Light -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Light -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Light">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Dark"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Light">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Dark"/>
         <skos:definition xml:lang="es">Elemento Light.</skos:definition>
         <skos:prefLabel>Light</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Plant -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Plant -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Plant">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Water"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Plant">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Water"/>
         <skos:definition xml:lang="es">Elemento Plant.</skos:definition>
         <skos:prefLabel>Plant</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Vaccine -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Vaccine -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Vaccine">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Type"/>
-        <isStrongTypeAgainst rdf:resource="http://w3id.org/digiOntoG4#Virus"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Vaccine">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Type"/>
+        <isStrongTypeAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Virus"/>
         <skos:definition xml:lang="es">Tipo Vaccine.</skos:definition>
         <skos:prefLabel>Vaccine</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Virus -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Virus -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Virus">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Type"/>
-        <isStrongTypeAgainst rdf:resource="http://w3id.org/digiOntoG4#Data"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Virus">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Type"/>
+        <isStrongTypeAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Data"/>
         <skos:definition xml:lang="es">Tipo Virus.</skos:definition>
         <skos:prefLabel>Virus</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Water -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Water -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Water">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Fire"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Water">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Fire"/>
         <skos:definition xml:lang="es">Elemento Water.</skos:definition>
         <skos:prefLabel>Water</skos:prefLabel>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/digiOntoG4#Wind -->
+    <!-- http://w3id.org/doisr/digiOntoG4#Wind -->
 
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/digiOntoG4#Wind">
-        <rdf:type rdf:resource="http://w3id.org/digiOntoG4#Element"/>
-        <isStrongAgainst rdf:resource="http://w3id.org/digiOntoG4#Earth"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/doisr/digiOntoG4#Wind">
+        <rdf:type rdf:resource="http://w3id.org/doisr/digiOntoG4#Element"/>
+        <isStrongAgainst rdf:resource="http://w3id.org/doisr/digiOntoG4#Earth"/>
         <skos:definition xml:lang="es">Elemento Wind.</skos:definition>
         <skos:prefLabel>Wind</skos:prefLabel>
     </owl:NamedIndividual>
@@ -667,6 +677,14 @@
     <rdf:Description rdf:about="http://purl.org/dc/terms/title">
         <terms:title>digiOntoG4</terms:title>
     </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/digiOntoG4#4hasSupportSkill">
+        <skos:definition xml:lang="es">Relaciona un Digimon con su habilidad de soporte.</skos:definition>
+        <skos:prefLabel>has support skill</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/doisr/digiOntoG4#4hasSupportSkill">
+        <skos:definition xml:lang="es">Relaciona un Digimon con su habilidad de soporte.</skos:definition>
+        <skos:prefLabel>has support skill</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
         <owl:versionInfo>1.0.1</owl:versionInfo>
     </rdf:Description>
@@ -688,9 +706,9 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://w3id.org/digiOntoG4#MagicMove"/>
-            <rdf:Description rdf:about="http://w3id.org/digiOntoG4#PhysicalMove"/>
-            <rdf:Description rdf:about="http://w3id.org/digiOntoG4#SupportMove"/>
+            <rdf:Description rdf:about="http://w3id.org/doisr/digiOntoG4#MagicMove"/>
+            <rdf:Description rdf:about="http://w3id.org/doisr/digiOntoG4#PhysicalMove"/>
+            <rdf:Description rdf:about="http://w3id.org/doisr/digiOntoG4#SupportMove"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>

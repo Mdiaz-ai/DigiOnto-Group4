@@ -1,17 +1,18 @@
-@prefix : <http://w3id.org/digiOntoG4#> .
+@prefix : <http://w3id.org/doisr/digiOntoG4#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://w3id.org/digiOntoG4#> .
+@base <http://w3id.org/doisr/digiOntoG4> .
 
-<http://w3id.org/digiOntoG4> rdf:type owl:Ontology ;
-                              <http://purl.org/dc/terms/creator> "Grupo 4" ;
-                              <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> ;
-                              <http://purl.org/dc/terms/title> "DigiOnto" ;
-                              owl:versionInfo "1.0.1" ;
-                              <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+<http://w3id.org/doisr/digiOntoG4> rdf:type owl:Ontology ;
+                                    owl:versionIRI <https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html> ;
+                                    <http://purl.org/dc/terms/creator> "Grupo 4" ;
+                                    <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> ;
+                                    <http://purl.org/dc/terms/title> "DigiOnto" ;
+                                    owl:versionInfo "1.0.1" ;
+                                    <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 
 #################################################################
 #    Annotation properties
@@ -33,6 +34,11 @@
 owl:priorVersion owl:priorVersion "1.0.0" .
 
 
+###  http://www.w3.org/2002/07/owl#versionIRI
+owl:versionIRI rdf:type owl:AnnotationProperty ;
+               owl:versionIRI "https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html" .
+
+
 ###  http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
 
@@ -49,7 +55,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
 #    Object Properties
 #################################################################
 
-###  http://w3id.org/digiOntoG4#hasElement
+###  http://w3id.org/doisr/digiOntoG4#hasElement
 :hasElement rdf:type owl:ObjectProperty ;
             rdfs:domain :Digimon ;
             rdfs:range :Element ;
@@ -58,7 +64,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
             <http://www.w3.org/2004/02/skos/core#prefLabel> "has element" .
 
 
-###  http://w3id.org/digiOntoG4#hasEvolutionStage
+###  http://w3id.org/doisr/digiOntoG4#hasEvolutionStage
 :hasEvolutionStage rdf:type owl:ObjectProperty ;
                    rdfs:domain :Digimon ;
                    rdfs:range :EvolutionStage ;
@@ -67,7 +73,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "has evolution stage" .
 
 
-###  http://w3id.org/digiOntoG4#hasMoveElement
+###  http://w3id.org/doisr/digiOntoG4#hasMoveElement
 :hasMoveElement rdf:type owl:ObjectProperty ;
                 rdfs:domain :Move ;
                 rdfs:range :Element ;
@@ -76,7 +82,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
                 <http://www.w3.org/2004/02/skos/core#prefLabel> "has move element" .
 
 
-###  http://w3id.org/digiOntoG4#hasSupportSkill
+###  http://w3id.org/doisr/digiOntoG4#hasSupportSkill
 :hasSupportSkill rdf:type owl:ObjectProperty ;
                  rdfs:domain :Digimon ;
                  rdfs:range :SupportSkill ;
@@ -85,7 +91,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
                  <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
 
 
-###  http://w3id.org/digiOntoG4#hasType
+###  http://w3id.org/doisr/digiOntoG4#hasType
 :hasType rdf:type owl:ObjectProperty ;
          rdfs:domain :Digimon ;
          rdfs:range :Type ;
@@ -94,7 +100,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
          <http://www.w3.org/2004/02/skos/core#prefLabel> "has type" .
 
 
-###  http://w3id.org/digiOntoG4#isStrongAgainst
+###  http://w3id.org/doisr/digiOntoG4#isStrongAgainst
 :isStrongAgainst rdf:type owl:ObjectProperty ;
                  rdfs:domain :Element ;
                  rdfs:range :Element ;
@@ -103,7 +109,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
                  <http://www.w3.org/2004/02/skos/core#prefLabel> "is strong against" .
 
 
-###  http://w3id.org/digiOntoG4#isStrongTypeAgainst
+###  http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst
 :isStrongTypeAgainst rdf:type owl:ObjectProperty ;
                      rdfs:domain :Type ;
                      rdfs:range :Type ;
@@ -112,7 +118,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "is strong type against" .
 
 
-###  http://w3id.org/digiOntoG4#learnsMove
+###  http://w3id.org/doisr/digiOntoG4#learnsMove
 :learnsMove rdf:type owl:ObjectProperty ;
             rdfs:domain :Digimon ;
             rdfs:range :Move ;
@@ -125,7 +131,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
 #    Data properties
 #################################################################
 
-###  http://w3id.org/digiOntoG4#atk
+###  http://w3id.org/doisr/digiOntoG4#atk
 :atk rdf:type owl:DatatypeProperty ;
      rdfs:domain :Digimon ;
      rdfs:range xsd:integer ;
@@ -134,7 +140,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
      <http://www.w3.org/2004/02/skos/core#prefLabel> "atk" .
 
 
-###  http://w3id.org/digiOntoG4#def
+###  http://w3id.org/doisr/digiOntoG4#def
 :def rdf:type owl:DatatypeProperty ;
      rdfs:domain :Digimon ;
      rdfs:range xsd:integer ;
@@ -143,7 +149,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
      <http://www.w3.org/2004/02/skos/core#prefLabel> "def" .
 
 
-###  http://w3id.org/digiOntoG4#description
+###  http://w3id.org/doisr/digiOntoG4#description
 :description rdf:type owl:DatatypeProperty ;
              rdfs:domain :Move ;
              rdfs:range xsd:string ;
@@ -152,7 +158,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
              <http://www.w3.org/2004/02/skos/core#prefLabel> "description" .
 
 
-###  http://w3id.org/digiOntoG4#elementName
+###  http://w3id.org/doisr/digiOntoG4#elementName
 :elementName rdf:type owl:DatatypeProperty ;
              rdfs:domain :Element ;
              rdfs:range xsd:string ;
@@ -161,7 +167,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
              <http://www.w3.org/2004/02/skos/core#prefLabel> "element name" .
 
 
-###  http://w3id.org/digiOntoG4#hp
+###  http://w3id.org/doisr/digiOntoG4#hp
 :hp rdf:type owl:DatatypeProperty ;
     rdfs:domain :Digimon ;
     rdfs:range xsd:integer ;
@@ -170,7 +176,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
     <http://www.w3.org/2004/02/skos/core#prefLabel> "hp" .
 
 
-###  http://w3id.org/digiOntoG4#inheritable
+###  http://w3id.org/doisr/digiOntoG4#inheritable
 :inheritable rdf:type owl:DatatypeProperty ;
              rdfs:domain :Move ;
              rdfs:range xsd:boolean ;
@@ -179,7 +185,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
              <http://www.w3.org/2004/02/skos/core#prefLabel> "inheritable" .
 
 
-###  http://w3id.org/digiOntoG4#int
+###  http://w3id.org/doisr/digiOntoG4#int
 :int rdf:type owl:DatatypeProperty ;
      rdfs:domain :Digimon ;
      rdfs:range xsd:integer ;
@@ -188,7 +194,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
      <http://www.w3.org/2004/02/skos/core#prefLabel> "int" .
 
 
-###  http://w3id.org/digiOntoG4#power
+###  http://w3id.org/doisr/digiOntoG4#power
 :power rdf:type owl:DatatypeProperty ;
        rdfs:domain :Move ;
        rdfs:range xsd:integer ;
@@ -197,7 +203,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
        <http://www.w3.org/2004/02/skos/core#prefLabel> "power" .
 
 
-###  http://w3id.org/digiOntoG4#skillName
+###  http://w3id.org/doisr/digiOntoG4#skillName
 :skillName rdf:type owl:DatatypeProperty ;
            rdfs:domain :SupportSkill ;
            rdfs:range xsd:string ;
@@ -206,7 +212,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
            <http://www.w3.org/2004/02/skos/core#prefLabel> "skill name" .
 
 
-###  http://w3id.org/digiOntoG4#sp
+###  http://w3id.org/doisr/digiOntoG4#sp
 :sp rdf:type owl:DatatypeProperty ;
     rdfs:domain :Digimon ;
     rdfs:range xsd:integer ;
@@ -215,7 +221,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
     <http://www.w3.org/2004/02/skos/core#prefLabel> "sp" .
 
 
-###  http://w3id.org/digiOntoG4#spCost
+###  http://w3id.org/doisr/digiOntoG4#spCost
 :spCost rdf:type owl:DatatypeProperty ;
         rdfs:domain :Move ;
         rdfs:range xsd:integer ;
@@ -224,7 +230,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
         <http://www.w3.org/2004/02/skos/core#prefLabel> "sp cost" .
 
 
-###  http://w3id.org/digiOntoG4#spd
+###  http://w3id.org/doisr/digiOntoG4#spd
 :spd rdf:type owl:DatatypeProperty ;
      rdfs:domain :Digimon ;
      rdfs:range xsd:integer ;
@@ -233,7 +239,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
      <http://www.w3.org/2004/02/skos/core#prefLabel> "spd" .
 
 
-###  http://w3id.org/digiOntoG4#stageName
+###  http://w3id.org/doisr/digiOntoG4#stageName
 :stageName rdf:type owl:DatatypeProperty ;
            rdfs:domain :EvolutionStage ;
            rdfs:range xsd:string ;
@@ -246,28 +252,28 @@ owl:priorVersion owl:priorVersion "1.0.0" .
 #    Classes
 #################################################################
 
-###  http://w3id.org/digiOntoG4#Digimon
+###  http://w3id.org/doisr/digiOntoG4#Digimon
 :Digimon rdf:type owl:Class ;
          rdfs:label "Digimon" ;
          <http://www.w3.org/2004/02/skos/core#definition> "Entidad que representa a una criatura Digimon."@es ;
          <http://www.w3.org/2004/02/skos/core#prefLabel> "Digimon" .
 
 
-###  http://w3id.org/digiOntoG4#Element
+###  http://w3id.org/doisr/digiOntoG4#Element
 :Element rdf:type owl:Class ;
          rdfs:label "Element" ;
          <http://www.w3.org/2004/02/skos/core#definition> "Elemento que tienen movimientos y Digimon."@es ;
          <http://www.w3.org/2004/02/skos/core#prefLabel> "Element" .
 
 
-###  http://w3id.org/digiOntoG4#EvolutionStage
+###  http://w3id.org/doisr/digiOntoG4#EvolutionStage
 :EvolutionStage rdf:type owl:Class ;
                 rdfs:label "Evolution Stage" ;
                 <http://www.w3.org/2004/02/skos/core#definition> "Etapa de evolución de un Digimon."@es ;
                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Evolution Stage" .
 
 
-###  http://w3id.org/digiOntoG4#MagicMove
+###  http://w3id.org/doisr/digiOntoG4#MagicMove
 :MagicMove rdf:type owl:Class ;
            rdfs:subClassOf :Move ;
            rdfs:label "Magic Move" ;
@@ -275,14 +281,14 @@ owl:priorVersion owl:priorVersion "1.0.0" .
            <http://www.w3.org/2004/02/skos/core#prefLabel> "Magic Move" .
 
 
-###  http://w3id.org/digiOntoG4#Move
+###  http://w3id.org/doisr/digiOntoG4#Move
 :Move rdf:type owl:Class ;
       rdfs:label "Move" ;
       <http://www.w3.org/2004/02/skos/core#definition> "Acción que puede realizar un Digimon."@es ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "Move" .
 
 
-###  http://w3id.org/digiOntoG4#PhysicalMove
+###  http://w3id.org/doisr/digiOntoG4#PhysicalMove
 :PhysicalMove rdf:type owl:Class ;
               rdfs:subClassOf :Move ;
               rdfs:label "Physical Move" ;
@@ -290,7 +296,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
               <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical Move" .
 
 
-###  http://w3id.org/digiOntoG4#SupportMove
+###  http://w3id.org/doisr/digiOntoG4#SupportMove
 :SupportMove rdf:type owl:Class ;
              rdfs:subClassOf :Move ;
              rdfs:label "Support Move" ;
@@ -298,14 +304,14 @@ owl:priorVersion owl:priorVersion "1.0.0" .
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Support Move" .
 
 
-###  http://w3id.org/digiOntoG4#SupportSkill
+###  http://w3id.org/doisr/digiOntoG4#SupportSkill
 :SupportSkill rdf:type owl:Class ;
               rdfs:label "Support Skill" ;
               <http://www.w3.org/2004/02/skos/core#definition> "Habilidad de soporte aplicable a Digimon."@es ;
               <http://www.w3.org/2004/02/skos/core#prefLabel> "Support Skill" .
 
 
-###  http://w3id.org/digiOntoG4#Type
+###  http://w3id.org/doisr/digiOntoG4#Type
 :Type rdf:type owl:Class ;
       rdfs:label "Type" ;
       <http://www.w3.org/2004/02/skos/core#definition> "Clasificación de tipo de Digimon (ej. Vaccine, Virus, Data)."@es ;
@@ -316,7 +322,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
 #    Individuals
 #################################################################
 
-###  http://w3id.org/digiOntoG4#Dark
+###  http://w3id.org/doisr/digiOntoG4#Dark
 :Dark rdf:type owl:NamedIndividual ,
                :Element ;
       :isStrongAgainst :Light ;
@@ -324,7 +330,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
       <http://www.w3.org/2004/02/skos/core#prefLabel> "Dark" .
 
 
-###  http://w3id.org/digiOntoG4#Data
+###  http://w3id.org/doisr/digiOntoG4#Data
 :Data rdf:type owl:NamedIndividual ,
                :Type ;
       :isStrongTypeAgainst :Vaccine ;
@@ -332,7 +338,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
       <http://www.w3.org/2004/02/skos/core#prefLabel> "Data" .
 
 
-###  http://w3id.org/digiOntoG4#Earth
+###  http://w3id.org/doisr/digiOntoG4#Earth
 :Earth rdf:type owl:NamedIndividual ,
                 :Element ;
        :isStrongAgainst :Electric ;
@@ -340,7 +346,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Earth" .
 
 
-###  http://w3id.org/digiOntoG4#Electric
+###  http://w3id.org/doisr/digiOntoG4#Electric
 :Electric rdf:type owl:NamedIndividual ,
                    :Element ;
           :isStrongAgainst :Wind ;
@@ -348,7 +354,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
           <http://www.w3.org/2004/02/skos/core#prefLabel> "Electric" .
 
 
-###  http://w3id.org/digiOntoG4#Fire
+###  http://w3id.org/doisr/digiOntoG4#Fire
 :Fire rdf:type owl:NamedIndividual ,
                :Element ;
       :isStrongAgainst :Plant ;
@@ -356,14 +362,14 @@ owl:priorVersion owl:priorVersion "1.0.0" .
       <http://www.w3.org/2004/02/skos/core#prefLabel> "Fire" .
 
 
-###  http://w3id.org/digiOntoG4#Free
+###  http://w3id.org/doisr/digiOntoG4#Free
 :Free rdf:type owl:NamedIndividual ,
                :Type ;
       <http://www.w3.org/2004/02/skos/core#definition> "Tipo Free."@es ;
       <http://www.w3.org/2004/02/skos/core#prefLabel> "Free" .
 
 
-###  http://w3id.org/digiOntoG4#Light
+###  http://w3id.org/doisr/digiOntoG4#Light
 :Light rdf:type owl:NamedIndividual ,
                 :Element ;
        :isStrongAgainst :Dark ;
@@ -371,7 +377,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Light" .
 
 
-###  http://w3id.org/digiOntoG4#Plant
+###  http://w3id.org/doisr/digiOntoG4#Plant
 :Plant rdf:type owl:NamedIndividual ,
                 :Element ;
        :isStrongAgainst :Water ;
@@ -379,7 +385,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Plant" .
 
 
-###  http://w3id.org/digiOntoG4#Vaccine
+###  http://w3id.org/doisr/digiOntoG4#Vaccine
 :Vaccine rdf:type owl:NamedIndividual ,
                   :Type ;
          :isStrongTypeAgainst :Virus ;
@@ -387,7 +393,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
          <http://www.w3.org/2004/02/skos/core#prefLabel> "Vaccine" .
 
 
-###  http://w3id.org/digiOntoG4#Virus
+###  http://w3id.org/doisr/digiOntoG4#Virus
 :Virus rdf:type owl:NamedIndividual ,
                 :Type ;
        :isStrongTypeAgainst :Data ;
@@ -395,7 +401,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Virus" .
 
 
-###  http://w3id.org/digiOntoG4#Water
+###  http://w3id.org/doisr/digiOntoG4#Water
 :Water rdf:type owl:NamedIndividual ,
                 :Element ;
        :isStrongAgainst :Fire ;
@@ -403,7 +409,7 @@ owl:priorVersion owl:priorVersion "1.0.0" .
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Water" .
 
 
-###  http://w3id.org/digiOntoG4#Wind
+###  http://w3id.org/doisr/digiOntoG4#Wind
 :Wind rdf:type owl:NamedIndividual ,
                :Element ;
       :isStrongAgainst :Earth ;
@@ -422,6 +428,14 @@ owl:priorVersion owl:priorVersion "1.0.0" .
 
 
 <http://purl.org/dc/terms/title> <http://purl.org/dc/terms/title> "digiOntoG4" .
+
+
+<http://w3id.org/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es ;
+                                              <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
+
+
+<http://w3id.org/doisr/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es ;
+                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
 
 
 owl:versionInfo owl:versionInfo "1.0.1" .

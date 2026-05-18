@@ -1,9 +1,10 @@
-<http://w3id.org/digiOntoG4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://w3id.org/digiOntoG4> <http://purl.org/dc/terms/creator> "Grupo 4" .
-<http://w3id.org/digiOntoG4> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> .
-<http://w3id.org/digiOntoG4> <http://purl.org/dc/terms/title> "DigiOnto" .
-<http://w3id.org/digiOntoG4> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
-<http://w3id.org/digiOntoG4> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+<http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/2002/07/owl#versionIRI> <https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html> .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/creator> "Grupo 4" .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> .
+<http://w3id.org/doisr/digiOntoG4> <http://purl.org/dc/terms/title> "DigiOnto" .
+<http://w3id.org/doisr/digiOntoG4> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
+<http://w3id.org/doisr/digiOntoG4> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 # 
 # 
 # #################################################################
@@ -25,6 +26,10 @@
 # http://www.w3.org/2002/07/owl#priorVersion
 <http://www.w3.org/2002/07/owl#priorVersion> <http://www.w3.org/2002/07/owl#priorVersion> "1.0.0" .
 # 
+# http://www.w3.org/2002/07/owl#versionIRI
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/2002/07/owl#versionIRI> "https://i-saito11.github.io/DigiOnto-Group4/1.0.1/index-en.html" .
+# 
 # http://www.w3.org/2004/02/skos/core#definition
 <http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -43,69 +48,69 @@
 # #################################################################
 # 
 # 
-# http://w3id.org/digiOntoG4#hasElement
-<http://w3id.org/digiOntoG4#hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#hasElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#hasElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#hasElement> <http://www.w3.org/2000/01/rdf-schema#label> "has element" .
-<http://w3id.org/digiOntoG4#hasElement> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su elemento."@es .
-<http://w3id.org/digiOntoG4#hasElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "has element" .
+# http://w3id.org/doisr/digiOntoG4#hasElement
+<http://w3id.org/doisr/digiOntoG4#hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#hasElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#hasElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#hasElement> <http://www.w3.org/2000/01/rdf-schema#label> "has element" .
+<http://w3id.org/doisr/digiOntoG4#hasElement> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su elemento."@es .
+<http://w3id.org/doisr/digiOntoG4#hasElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "has element" .
 # 
-# http://w3id.org/digiOntoG4#hasEvolutionStage
-<http://w3id.org/digiOntoG4#hasEvolutionStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#EvolutionStage> .
-<http://w3id.org/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2000/01/rdf-schema#label> "has evolution stage" .
-<http://w3id.org/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su etapa evolutiva."@es .
-<http://w3id.org/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2004/02/skos/core#prefLabel> "has evolution stage" .
+# http://w3id.org/doisr/digiOntoG4#hasEvolutionStage
+<http://w3id.org/doisr/digiOntoG4#hasEvolutionStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#EvolutionStage> .
+<http://w3id.org/doisr/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2000/01/rdf-schema#label> "has evolution stage" .
+<http://w3id.org/doisr/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su etapa evolutiva."@es .
+<http://w3id.org/doisr/digiOntoG4#hasEvolutionStage> <http://www.w3.org/2004/02/skos/core#prefLabel> "has evolution stage" .
 # 
-# http://w3id.org/digiOntoG4#hasMoveElement
-<http://w3id.org/digiOntoG4#hasMoveElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#hasMoveElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#hasMoveElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#hasMoveElement> <http://www.w3.org/2000/01/rdf-schema#label> "has move element" .
-<http://w3id.org/digiOntoG4#hasMoveElement> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un movimiento con su elemento."@es .
-<http://w3id.org/digiOntoG4#hasMoveElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "has move element" .
+# http://w3id.org/doisr/digiOntoG4#hasMoveElement
+<http://w3id.org/doisr/digiOntoG4#hasMoveElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#hasMoveElement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#hasMoveElement> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#hasMoveElement> <http://www.w3.org/2000/01/rdf-schema#label> "has move element" .
+<http://w3id.org/doisr/digiOntoG4#hasMoveElement> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un movimiento con su elemento."@es .
+<http://w3id.org/doisr/digiOntoG4#hasMoveElement> <http://www.w3.org/2004/02/skos/core#prefLabel> "has move element" .
 # 
-# http://w3id.org/digiOntoG4#hasSupportSkill
-<http://w3id.org/digiOntoG4#hasSupportSkill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#hasSupportSkill> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#hasSupportSkill> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#SupportSkill> .
-<http://w3id.org/digiOntoG4#hasSupportSkill> <http://www.w3.org/2000/01/rdf-schema#label> "has support skill" .
-<http://w3id.org/digiOntoG4#hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es .
-<http://w3id.org/digiOntoG4#hasSupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
+# http://w3id.org/doisr/digiOntoG4#hasSupportSkill
+<http://w3id.org/doisr/digiOntoG4#hasSupportSkill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#hasSupportSkill> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#hasSupportSkill> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#SupportSkill> .
+<http://w3id.org/doisr/digiOntoG4#hasSupportSkill> <http://www.w3.org/2000/01/rdf-schema#label> "has support skill" .
+<http://w3id.org/doisr/digiOntoG4#hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es .
+<http://w3id.org/doisr/digiOntoG4#hasSupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
 # 
-# http://w3id.org/digiOntoG4#hasType
-<http://w3id.org/digiOntoG4#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#Type> .
-<http://w3id.org/digiOntoG4#hasType> <http://www.w3.org/2000/01/rdf-schema#label> "has type" .
-<http://w3id.org/digiOntoG4#hasType> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su tipo."@es .
-<http://w3id.org/digiOntoG4#hasType> <http://www.w3.org/2004/02/skos/core#prefLabel> "has type" .
+# http://w3id.org/doisr/digiOntoG4#hasType
+<http://w3id.org/doisr/digiOntoG4#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#Type> .
+<http://w3id.org/doisr/digiOntoG4#hasType> <http://www.w3.org/2000/01/rdf-schema#label> "has type" .
+<http://w3id.org/doisr/digiOntoG4#hasType> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su tipo."@es .
+<http://w3id.org/doisr/digiOntoG4#hasType> <http://www.w3.org/2004/02/skos/core#prefLabel> "has type" .
 # 
-# http://w3id.org/digiOntoG4#isStrongAgainst
-<http://w3id.org/digiOntoG4#isStrongAgainst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#isStrongAgainst> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#isStrongAgainst> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#isStrongAgainst> <http://www.w3.org/2000/01/rdf-schema#label> "is strong against" .
-<http://w3id.org/digiOntoG4#isStrongAgainst> <http://www.w3.org/2004/02/skos/core#definition> "Indica ventaja de un elemento frente a otro."@es .
-<http://w3id.org/digiOntoG4#isStrongAgainst> <http://www.w3.org/2004/02/skos/core#prefLabel> "is strong against" .
+# http://w3id.org/doisr/digiOntoG4#isStrongAgainst
+<http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://www.w3.org/2000/01/rdf-schema#label> "is strong against" .
+<http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://www.w3.org/2004/02/skos/core#definition> "Indica ventaja de un elemento frente a otro."@es .
+<http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://www.w3.org/2004/02/skos/core#prefLabel> "is strong against" .
 # 
-# http://w3id.org/digiOntoG4#isStrongTypeAgainst
-<http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Type> .
-<http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#Type> .
-<http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2000/01/rdf-schema#label> "is strong type against" .
-<http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2004/02/skos/core#definition> "Indica ventaja de tipo frente a otro tipo."@es .
-<http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2004/02/skos/core#prefLabel> "is strong type against" .
+# http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst
+<http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Type> .
+<http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#Type> .
+<http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2000/01/rdf-schema#label> "is strong type against" .
+<http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2004/02/skos/core#definition> "Indica ventaja de tipo frente a otro tipo."@es .
+<http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://www.w3.org/2004/02/skos/core#prefLabel> "is strong type against" .
 # 
-# http://w3id.org/digiOntoG4#learnsMove
-<http://w3id.org/digiOntoG4#learnsMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/digiOntoG4#learnsMove> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#learnsMove> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#learnsMove> <http://www.w3.org/2000/01/rdf-schema#label> "learns move" .
-<http://w3id.org/digiOntoG4#learnsMove> <http://www.w3.org/2004/02/skos/core#definition> "Representa los movimientos que puede aprender un Digimon."@es .
-<http://w3id.org/digiOntoG4#learnsMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "learns move" .
+# http://w3id.org/doisr/digiOntoG4#learnsMove
+<http://w3id.org/doisr/digiOntoG4#learnsMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/doisr/digiOntoG4#learnsMove> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#learnsMove> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#learnsMove> <http://www.w3.org/2000/01/rdf-schema#label> "learns move" .
+<http://w3id.org/doisr/digiOntoG4#learnsMove> <http://www.w3.org/2004/02/skos/core#definition> "Representa los movimientos que puede aprender un Digimon."@es .
+<http://w3id.org/doisr/digiOntoG4#learnsMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "learns move" .
 # 
 # 
 # 
@@ -116,109 +121,109 @@
 # #################################################################
 # 
 # 
-# http://w3id.org/digiOntoG4#atk
-<http://w3id.org/digiOntoG4#atk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#atk> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#atk> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#atk> <http://www.w3.org/2000/01/rdf-schema#label> "atk" .
-<http://w3id.org/digiOntoG4#atk> <http://www.w3.org/2004/02/skos/core#definition> "Representa el ataque."@es .
-<http://w3id.org/digiOntoG4#atk> <http://www.w3.org/2004/02/skos/core#prefLabel> "atk" .
+# http://w3id.org/doisr/digiOntoG4#atk
+<http://w3id.org/doisr/digiOntoG4#atk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#atk> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#atk> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#atk> <http://www.w3.org/2000/01/rdf-schema#label> "atk" .
+<http://w3id.org/doisr/digiOntoG4#atk> <http://www.w3.org/2004/02/skos/core#definition> "Representa el ataque."@es .
+<http://w3id.org/doisr/digiOntoG4#atk> <http://www.w3.org/2004/02/skos/core#prefLabel> "atk" .
 # 
-# http://w3id.org/digiOntoG4#def
-<http://w3id.org/digiOntoG4#def> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#def> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#def> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#def> <http://www.w3.org/2000/01/rdf-schema#label> "def" .
-<http://w3id.org/digiOntoG4#def> <http://www.w3.org/2004/02/skos/core#definition> "Representa la defensa."@es .
-<http://w3id.org/digiOntoG4#def> <http://www.w3.org/2004/02/skos/core#prefLabel> "def" .
+# http://w3id.org/doisr/digiOntoG4#def
+<http://w3id.org/doisr/digiOntoG4#def> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#def> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#def> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#def> <http://www.w3.org/2000/01/rdf-schema#label> "def" .
+<http://w3id.org/doisr/digiOntoG4#def> <http://www.w3.org/2004/02/skos/core#definition> "Representa la defensa."@es .
+<http://w3id.org/doisr/digiOntoG4#def> <http://www.w3.org/2004/02/skos/core#prefLabel> "def" .
 # 
-# http://w3id.org/digiOntoG4#description
-<http://w3id.org/digiOntoG4#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://w3id.org/digiOntoG4#description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
-<http://w3id.org/digiOntoG4#description> <http://www.w3.org/2004/02/skos/core#definition> "Describe un movimiento."@es .
-<http://w3id.org/digiOntoG4#description> <http://www.w3.org/2004/02/skos/core#prefLabel> "description" .
+# http://w3id.org/doisr/digiOntoG4#description
+<http://w3id.org/doisr/digiOntoG4#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://w3id.org/doisr/digiOntoG4#description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
+<http://w3id.org/doisr/digiOntoG4#description> <http://www.w3.org/2004/02/skos/core#definition> "Describe un movimiento."@es .
+<http://w3id.org/doisr/digiOntoG4#description> <http://www.w3.org/2004/02/skos/core#prefLabel> "description" .
 # 
-# http://w3id.org/digiOntoG4#elementName
-<http://w3id.org/digiOntoG4#elementName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#elementName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#elementName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://w3id.org/digiOntoG4#elementName> <http://www.w3.org/2000/01/rdf-schema#label> "element name" .
-<http://w3id.org/digiOntoG4#elementName> <http://www.w3.org/2004/02/skos/core#definition> "Nombre de un elemento."@es .
-<http://w3id.org/digiOntoG4#elementName> <http://www.w3.org/2004/02/skos/core#prefLabel> "element name" .
+# http://w3id.org/doisr/digiOntoG4#elementName
+<http://w3id.org/doisr/digiOntoG4#elementName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#elementName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#elementName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://w3id.org/doisr/digiOntoG4#elementName> <http://www.w3.org/2000/01/rdf-schema#label> "element name" .
+<http://w3id.org/doisr/digiOntoG4#elementName> <http://www.w3.org/2004/02/skos/core#definition> "Nombre de un elemento."@es .
+<http://w3id.org/doisr/digiOntoG4#elementName> <http://www.w3.org/2004/02/skos/core#prefLabel> "element name" .
 # 
-# http://w3id.org/digiOntoG4#hp
-<http://w3id.org/digiOntoG4#hp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#hp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#hp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#hp> <http://www.w3.org/2000/01/rdf-schema#label> "hp" .
-<http://w3id.org/digiOntoG4#hp> <http://www.w3.org/2004/02/skos/core#definition> "Representa los puntos de vida."@es .
-<http://w3id.org/digiOntoG4#hp> <http://www.w3.org/2004/02/skos/core#prefLabel> "hp" .
+# http://w3id.org/doisr/digiOntoG4#hp
+<http://w3id.org/doisr/digiOntoG4#hp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#hp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#hp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#hp> <http://www.w3.org/2000/01/rdf-schema#label> "hp" .
+<http://w3id.org/doisr/digiOntoG4#hp> <http://www.w3.org/2004/02/skos/core#definition> "Representa los puntos de vida."@es .
+<http://w3id.org/doisr/digiOntoG4#hp> <http://www.w3.org/2004/02/skos/core#prefLabel> "hp" .
 # 
-# http://w3id.org/digiOntoG4#inheritable
-<http://w3id.org/digiOntoG4#inheritable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#inheritable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#inheritable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://w3id.org/digiOntoG4#inheritable> <http://www.w3.org/2000/01/rdf-schema#label> "inheritable" .
-<http://w3id.org/digiOntoG4#inheritable> <http://www.w3.org/2004/02/skos/core#definition> "Indica si un movimiento puede heredarse."@es .
-<http://w3id.org/digiOntoG4#inheritable> <http://www.w3.org/2004/02/skos/core#prefLabel> "inheritable" .
+# http://w3id.org/doisr/digiOntoG4#inheritable
+<http://w3id.org/doisr/digiOntoG4#inheritable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#inheritable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#inheritable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://w3id.org/doisr/digiOntoG4#inheritable> <http://www.w3.org/2000/01/rdf-schema#label> "inheritable" .
+<http://w3id.org/doisr/digiOntoG4#inheritable> <http://www.w3.org/2004/02/skos/core#definition> "Indica si un movimiento puede heredarse."@es .
+<http://w3id.org/doisr/digiOntoG4#inheritable> <http://www.w3.org/2004/02/skos/core#prefLabel> "inheritable" .
 # 
-# http://w3id.org/digiOntoG4#int
-<http://w3id.org/digiOntoG4#int> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#int> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#int> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#int> <http://www.w3.org/2000/01/rdf-schema#label> "int" .
-<http://w3id.org/digiOntoG4#int> <http://www.w3.org/2004/02/skos/core#definition> "Representa la inteligencia."@es .
-<http://w3id.org/digiOntoG4#int> <http://www.w3.org/2004/02/skos/core#prefLabel> "int" .
+# http://w3id.org/doisr/digiOntoG4#int
+<http://w3id.org/doisr/digiOntoG4#int> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#int> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#int> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#int> <http://www.w3.org/2000/01/rdf-schema#label> "int" .
+<http://w3id.org/doisr/digiOntoG4#int> <http://www.w3.org/2004/02/skos/core#definition> "Representa la inteligencia."@es .
+<http://w3id.org/doisr/digiOntoG4#int> <http://www.w3.org/2004/02/skos/core#prefLabel> "int" .
 # 
-# http://w3id.org/digiOntoG4#power
-<http://w3id.org/digiOntoG4#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#power> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#power> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#power> <http://www.w3.org/2000/01/rdf-schema#label> "power" .
-<http://w3id.org/digiOntoG4#power> <http://www.w3.org/2004/02/skos/core#definition> "Representa la potencia de un movimiento."@es .
-<http://w3id.org/digiOntoG4#power> <http://www.w3.org/2004/02/skos/core#prefLabel> "power" .
+# http://w3id.org/doisr/digiOntoG4#power
+<http://w3id.org/doisr/digiOntoG4#power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#power> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#power> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#power> <http://www.w3.org/2000/01/rdf-schema#label> "power" .
+<http://w3id.org/doisr/digiOntoG4#power> <http://www.w3.org/2004/02/skos/core#definition> "Representa la potencia de un movimiento."@es .
+<http://w3id.org/doisr/digiOntoG4#power> <http://www.w3.org/2004/02/skos/core#prefLabel> "power" .
 # 
-# http://w3id.org/digiOntoG4#skillName
-<http://w3id.org/digiOntoG4#skillName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#skillName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#SupportSkill> .
-<http://w3id.org/digiOntoG4#skillName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://w3id.org/digiOntoG4#skillName> <http://www.w3.org/2000/01/rdf-schema#label> "skill name" .
-<http://w3id.org/digiOntoG4#skillName> <http://www.w3.org/2004/02/skos/core#definition> "Nombre de una habilidad de soporte."@es .
-<http://w3id.org/digiOntoG4#skillName> <http://www.w3.org/2004/02/skos/core#prefLabel> "skill name" .
+# http://w3id.org/doisr/digiOntoG4#skillName
+<http://w3id.org/doisr/digiOntoG4#skillName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#skillName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#SupportSkill> .
+<http://w3id.org/doisr/digiOntoG4#skillName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://w3id.org/doisr/digiOntoG4#skillName> <http://www.w3.org/2000/01/rdf-schema#label> "skill name" .
+<http://w3id.org/doisr/digiOntoG4#skillName> <http://www.w3.org/2004/02/skos/core#definition> "Nombre de una habilidad de soporte."@es .
+<http://w3id.org/doisr/digiOntoG4#skillName> <http://www.w3.org/2004/02/skos/core#prefLabel> "skill name" .
 # 
-# http://w3id.org/digiOntoG4#sp
-<http://w3id.org/digiOntoG4#sp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#sp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#sp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#sp> <http://www.w3.org/2000/01/rdf-schema#label> "sp" .
-<http://w3id.org/digiOntoG4#sp> <http://www.w3.org/2004/02/skos/core#definition> "Representa los puntos de habilidad."@es .
-<http://w3id.org/digiOntoG4#sp> <http://www.w3.org/2004/02/skos/core#prefLabel> "sp" .
+# http://w3id.org/doisr/digiOntoG4#sp
+<http://w3id.org/doisr/digiOntoG4#sp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#sp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#sp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#sp> <http://www.w3.org/2000/01/rdf-schema#label> "sp" .
+<http://w3id.org/doisr/digiOntoG4#sp> <http://www.w3.org/2004/02/skos/core#definition> "Representa los puntos de habilidad."@es .
+<http://w3id.org/doisr/digiOntoG4#sp> <http://www.w3.org/2004/02/skos/core#prefLabel> "sp" .
 # 
-# http://w3id.org/digiOntoG4#spCost
-<http://w3id.org/digiOntoG4#spCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#spCost> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#spCost> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#spCost> <http://www.w3.org/2000/01/rdf-schema#label> "sp cost" .
-<http://w3id.org/digiOntoG4#spCost> <http://www.w3.org/2004/02/skos/core#definition> "Coste de SP necesario para usar un movimiento."@es .
-<http://w3id.org/digiOntoG4#spCost> <http://www.w3.org/2004/02/skos/core#prefLabel> "sp cost" .
+# http://w3id.org/doisr/digiOntoG4#spCost
+<http://w3id.org/doisr/digiOntoG4#spCost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#spCost> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#spCost> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#spCost> <http://www.w3.org/2000/01/rdf-schema#label> "sp cost" .
+<http://w3id.org/doisr/digiOntoG4#spCost> <http://www.w3.org/2004/02/skos/core#definition> "Coste de SP necesario para usar un movimiento."@es .
+<http://w3id.org/doisr/digiOntoG4#spCost> <http://www.w3.org/2004/02/skos/core#prefLabel> "sp cost" .
 # 
-# http://w3id.org/digiOntoG4#spd
-<http://w3id.org/digiOntoG4#spd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#spd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#Digimon> .
-<http://w3id.org/digiOntoG4#spd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://w3id.org/digiOntoG4#spd> <http://www.w3.org/2000/01/rdf-schema#label> "spd" .
-<http://w3id.org/digiOntoG4#spd> <http://www.w3.org/2004/02/skos/core#definition> "Representa la velocidad."@es .
-<http://w3id.org/digiOntoG4#spd> <http://www.w3.org/2004/02/skos/core#prefLabel> "spd" .
+# http://w3id.org/doisr/digiOntoG4#spd
+<http://w3id.org/doisr/digiOntoG4#spd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#spd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#Digimon> .
+<http://w3id.org/doisr/digiOntoG4#spd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://w3id.org/doisr/digiOntoG4#spd> <http://www.w3.org/2000/01/rdf-schema#label> "spd" .
+<http://w3id.org/doisr/digiOntoG4#spd> <http://www.w3.org/2004/02/skos/core#definition> "Representa la velocidad."@es .
+<http://w3id.org/doisr/digiOntoG4#spd> <http://www.w3.org/2004/02/skos/core#prefLabel> "spd" .
 # 
-# http://w3id.org/digiOntoG4#stageName
-<http://w3id.org/digiOntoG4#stageName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://w3id.org/digiOntoG4#stageName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/digiOntoG4#EvolutionStage> .
-<http://w3id.org/digiOntoG4#stageName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://w3id.org/digiOntoG4#stageName> <http://www.w3.org/2000/01/rdf-schema#label> "stage name" .
-<http://w3id.org/digiOntoG4#stageName> <http://www.w3.org/2004/02/skos/core#definition> "Nombre de una etapa evolutiva."@es .
-<http://w3id.org/digiOntoG4#stageName> <http://www.w3.org/2004/02/skos/core#prefLabel> "stage name" .
+# http://w3id.org/doisr/digiOntoG4#stageName
+<http://w3id.org/doisr/digiOntoG4#stageName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/doisr/digiOntoG4#stageName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/doisr/digiOntoG4#EvolutionStage> .
+<http://w3id.org/doisr/digiOntoG4#stageName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://w3id.org/doisr/digiOntoG4#stageName> <http://www.w3.org/2000/01/rdf-schema#label> "stage name" .
+<http://w3id.org/doisr/digiOntoG4#stageName> <http://www.w3.org/2004/02/skos/core#definition> "Nombre de una etapa evolutiva."@es .
+<http://w3id.org/doisr/digiOntoG4#stageName> <http://www.w3.org/2004/02/skos/core#prefLabel> "stage name" .
 # 
 # 
 # 
@@ -229,62 +234,62 @@
 # #################################################################
 # 
 # 
-# http://w3id.org/digiOntoG4#Digimon
-<http://w3id.org/digiOntoG4#Digimon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#Digimon> <http://www.w3.org/2000/01/rdf-schema#label> "Digimon" .
-<http://w3id.org/digiOntoG4#Digimon> <http://www.w3.org/2004/02/skos/core#definition> "Entidad que representa a una criatura Digimon."@es .
-<http://w3id.org/digiOntoG4#Digimon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Digimon" .
+# http://w3id.org/doisr/digiOntoG4#Digimon
+<http://w3id.org/doisr/digiOntoG4#Digimon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#Digimon> <http://www.w3.org/2000/01/rdf-schema#label> "Digimon" .
+<http://w3id.org/doisr/digiOntoG4#Digimon> <http://www.w3.org/2004/02/skos/core#definition> "Entidad que representa a una criatura Digimon."@es .
+<http://w3id.org/doisr/digiOntoG4#Digimon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Digimon" .
 # 
-# http://w3id.org/digiOntoG4#Element
-<http://w3id.org/digiOntoG4#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#Element> <http://www.w3.org/2000/01/rdf-schema#label> "Element" .
-<http://w3id.org/digiOntoG4#Element> <http://www.w3.org/2004/02/skos/core#definition> "Elemento que tienen movimientos y Digimon."@es .
-<http://w3id.org/digiOntoG4#Element> <http://www.w3.org/2004/02/skos/core#prefLabel> "Element" .
+# http://w3id.org/doisr/digiOntoG4#Element
+<http://w3id.org/doisr/digiOntoG4#Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#Element> <http://www.w3.org/2000/01/rdf-schema#label> "Element" .
+<http://w3id.org/doisr/digiOntoG4#Element> <http://www.w3.org/2004/02/skos/core#definition> "Elemento que tienen movimientos y Digimon."@es .
+<http://w3id.org/doisr/digiOntoG4#Element> <http://www.w3.org/2004/02/skos/core#prefLabel> "Element" .
 # 
-# http://w3id.org/digiOntoG4#EvolutionStage
-<http://w3id.org/digiOntoG4#EvolutionStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#EvolutionStage> <http://www.w3.org/2000/01/rdf-schema#label> "Evolution Stage" .
-<http://w3id.org/digiOntoG4#EvolutionStage> <http://www.w3.org/2004/02/skos/core#definition> "Etapa de evolución de un Digimon."@es .
-<http://w3id.org/digiOntoG4#EvolutionStage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Evolution Stage" .
+# http://w3id.org/doisr/digiOntoG4#EvolutionStage
+<http://w3id.org/doisr/digiOntoG4#EvolutionStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#EvolutionStage> <http://www.w3.org/2000/01/rdf-schema#label> "Evolution Stage" .
+<http://w3id.org/doisr/digiOntoG4#EvolutionStage> <http://www.w3.org/2004/02/skos/core#definition> "Etapa de evolución de un Digimon."@es .
+<http://w3id.org/doisr/digiOntoG4#EvolutionStage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Evolution Stage" .
 # 
-# http://w3id.org/digiOntoG4#MagicMove
-<http://w3id.org/digiOntoG4#MagicMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#MagicMove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#MagicMove> <http://www.w3.org/2000/01/rdf-schema#label> "Magic Move" .
-<http://w3id.org/digiOntoG4#MagicMove> <http://www.w3.org/2004/02/skos/core#definition> "Movimiento de tipo mágico, subclase de Move."@es .
-<http://w3id.org/digiOntoG4#MagicMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "Magic Move" .
+# http://w3id.org/doisr/digiOntoG4#MagicMove
+<http://w3id.org/doisr/digiOntoG4#MagicMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#MagicMove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#MagicMove> <http://www.w3.org/2000/01/rdf-schema#label> "Magic Move" .
+<http://w3id.org/doisr/digiOntoG4#MagicMove> <http://www.w3.org/2004/02/skos/core#definition> "Movimiento de tipo mágico, subclase de Move."@es .
+<http://w3id.org/doisr/digiOntoG4#MagicMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "Magic Move" .
 # 
-# http://w3id.org/digiOntoG4#Move
-<http://w3id.org/digiOntoG4#Move> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#Move> <http://www.w3.org/2000/01/rdf-schema#label> "Move" .
-<http://w3id.org/digiOntoG4#Move> <http://www.w3.org/2004/02/skos/core#definition> "Acción que puede realizar un Digimon."@es .
-<http://w3id.org/digiOntoG4#Move> <http://www.w3.org/2004/02/skos/core#prefLabel> "Move" .
+# http://w3id.org/doisr/digiOntoG4#Move
+<http://w3id.org/doisr/digiOntoG4#Move> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#Move> <http://www.w3.org/2000/01/rdf-schema#label> "Move" .
+<http://w3id.org/doisr/digiOntoG4#Move> <http://www.w3.org/2004/02/skos/core#definition> "Acción que puede realizar un Digimon."@es .
+<http://w3id.org/doisr/digiOntoG4#Move> <http://www.w3.org/2004/02/skos/core#prefLabel> "Move" .
 # 
-# http://w3id.org/digiOntoG4#PhysicalMove
-<http://w3id.org/digiOntoG4#PhysicalMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#PhysicalMove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#PhysicalMove> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Move" .
-<http://w3id.org/digiOntoG4#PhysicalMove> <http://www.w3.org/2004/02/skos/core#definition> "Movimiento físico, subclase de Move."@es .
-<http://w3id.org/digiOntoG4#PhysicalMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical Move" .
+# http://w3id.org/doisr/digiOntoG4#PhysicalMove
+<http://w3id.org/doisr/digiOntoG4#PhysicalMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#PhysicalMove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#PhysicalMove> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Move" .
+<http://w3id.org/doisr/digiOntoG4#PhysicalMove> <http://www.w3.org/2004/02/skos/core#definition> "Movimiento físico, subclase de Move."@es .
+<http://w3id.org/doisr/digiOntoG4#PhysicalMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical Move" .
 # 
-# http://w3id.org/digiOntoG4#SupportMove
-<http://w3id.org/digiOntoG4#SupportMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#SupportMove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/digiOntoG4#Move> .
-<http://w3id.org/digiOntoG4#SupportMove> <http://www.w3.org/2000/01/rdf-schema#label> "Support Move" .
-<http://w3id.org/digiOntoG4#SupportMove> <http://www.w3.org/2004/02/skos/core#definition> "Movimiento de soporte, subclase de Move."@es .
-<http://w3id.org/digiOntoG4#SupportMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "Support Move" .
+# http://w3id.org/doisr/digiOntoG4#SupportMove
+<http://w3id.org/doisr/digiOntoG4#SupportMove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#SupportMove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/doisr/digiOntoG4#Move> .
+<http://w3id.org/doisr/digiOntoG4#SupportMove> <http://www.w3.org/2000/01/rdf-schema#label> "Support Move" .
+<http://w3id.org/doisr/digiOntoG4#SupportMove> <http://www.w3.org/2004/02/skos/core#definition> "Movimiento de soporte, subclase de Move."@es .
+<http://w3id.org/doisr/digiOntoG4#SupportMove> <http://www.w3.org/2004/02/skos/core#prefLabel> "Support Move" .
 # 
-# http://w3id.org/digiOntoG4#SupportSkill
-<http://w3id.org/digiOntoG4#SupportSkill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#SupportSkill> <http://www.w3.org/2000/01/rdf-schema#label> "Support Skill" .
-<http://w3id.org/digiOntoG4#SupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Habilidad de soporte aplicable a Digimon."@es .
-<http://w3id.org/digiOntoG4#SupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "Support Skill" .
+# http://w3id.org/doisr/digiOntoG4#SupportSkill
+<http://w3id.org/doisr/digiOntoG4#SupportSkill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#SupportSkill> <http://www.w3.org/2000/01/rdf-schema#label> "Support Skill" .
+<http://w3id.org/doisr/digiOntoG4#SupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Habilidad de soporte aplicable a Digimon."@es .
+<http://w3id.org/doisr/digiOntoG4#SupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "Support Skill" .
 # 
-# http://w3id.org/digiOntoG4#Type
-<http://w3id.org/digiOntoG4#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/digiOntoG4#Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
-<http://w3id.org/digiOntoG4#Type> <http://www.w3.org/2004/02/skos/core#definition> "Clasificación de tipo de Digimon (ej. Vaccine, Virus, Data)."@es .
-<http://w3id.org/digiOntoG4#Type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type" .
+# http://w3id.org/doisr/digiOntoG4#Type
+<http://w3id.org/doisr/digiOntoG4#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/doisr/digiOntoG4#Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+<http://w3id.org/doisr/digiOntoG4#Type> <http://www.w3.org/2004/02/skos/core#definition> "Clasificación de tipo de Digimon (ej. Vaccine, Virus, Data)."@es .
+<http://w3id.org/doisr/digiOntoG4#Type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Type" .
 # 
 # 
 # 
@@ -295,88 +300,88 @@
 # #################################################################
 # 
 # 
-# http://w3id.org/digiOntoG4#Dark
-<http://w3id.org/digiOntoG4#Dark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Dark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Dark> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Light> .
-<http://w3id.org/digiOntoG4#Dark> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Dark."@es .
-<http://w3id.org/digiOntoG4#Dark> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dark" .
+# http://w3id.org/doisr/digiOntoG4#Dark
+<http://w3id.org/doisr/digiOntoG4#Dark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Dark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Dark> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Light> .
+<http://w3id.org/doisr/digiOntoG4#Dark> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Dark."@es .
+<http://w3id.org/doisr/digiOntoG4#Dark> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dark" .
 # 
-# http://w3id.org/digiOntoG4#Data
-<http://w3id.org/digiOntoG4#Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Type> .
-<http://w3id.org/digiOntoG4#Data> <http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://w3id.org/digiOntoG4#Vaccine> .
-<http://w3id.org/digiOntoG4#Data> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Data."@es .
-<http://w3id.org/digiOntoG4#Data> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data" .
+# http://w3id.org/doisr/digiOntoG4#Data
+<http://w3id.org/doisr/digiOntoG4#Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Type> .
+<http://w3id.org/doisr/digiOntoG4#Data> <http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://w3id.org/doisr/digiOntoG4#Vaccine> .
+<http://w3id.org/doisr/digiOntoG4#Data> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Data."@es .
+<http://w3id.org/doisr/digiOntoG4#Data> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data" .
 # 
-# http://w3id.org/digiOntoG4#Earth
-<http://w3id.org/digiOntoG4#Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Earth> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Electric> .
-<http://w3id.org/digiOntoG4#Earth> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Earth."@es .
-<http://w3id.org/digiOntoG4#Earth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Earth" .
+# http://w3id.org/doisr/digiOntoG4#Earth
+<http://w3id.org/doisr/digiOntoG4#Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Earth> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Electric> .
+<http://w3id.org/doisr/digiOntoG4#Earth> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Earth."@es .
+<http://w3id.org/doisr/digiOntoG4#Earth> <http://www.w3.org/2004/02/skos/core#prefLabel> "Earth" .
 # 
-# http://w3id.org/digiOntoG4#Electric
-<http://w3id.org/digiOntoG4#Electric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Electric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Electric> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Wind> .
-<http://w3id.org/digiOntoG4#Electric> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Electric."@es .
-<http://w3id.org/digiOntoG4#Electric> <http://www.w3.org/2004/02/skos/core#prefLabel> "Electric" .
+# http://w3id.org/doisr/digiOntoG4#Electric
+<http://w3id.org/doisr/digiOntoG4#Electric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Electric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Electric> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Wind> .
+<http://w3id.org/doisr/digiOntoG4#Electric> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Electric."@es .
+<http://w3id.org/doisr/digiOntoG4#Electric> <http://www.w3.org/2004/02/skos/core#prefLabel> "Electric" .
 # 
-# http://w3id.org/digiOntoG4#Fire
-<http://w3id.org/digiOntoG4#Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Fire> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Plant> .
-<http://w3id.org/digiOntoG4#Fire> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Fire."@es .
-<http://w3id.org/digiOntoG4#Fire> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fire" .
+# http://w3id.org/doisr/digiOntoG4#Fire
+<http://w3id.org/doisr/digiOntoG4#Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Fire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Fire> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Plant> .
+<http://w3id.org/doisr/digiOntoG4#Fire> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Fire."@es .
+<http://w3id.org/doisr/digiOntoG4#Fire> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fire" .
 # 
-# http://w3id.org/digiOntoG4#Free
-<http://w3id.org/digiOntoG4#Free> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Free> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Type> .
-<http://w3id.org/digiOntoG4#Free> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Free."@es .
-<http://w3id.org/digiOntoG4#Free> <http://www.w3.org/2004/02/skos/core#prefLabel> "Free" .
+# http://w3id.org/doisr/digiOntoG4#Free
+<http://w3id.org/doisr/digiOntoG4#Free> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Free> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Type> .
+<http://w3id.org/doisr/digiOntoG4#Free> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Free."@es .
+<http://w3id.org/doisr/digiOntoG4#Free> <http://www.w3.org/2004/02/skos/core#prefLabel> "Free" .
 # 
-# http://w3id.org/digiOntoG4#Light
-<http://w3id.org/digiOntoG4#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Light> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Dark> .
-<http://w3id.org/digiOntoG4#Light> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Light."@es .
-<http://w3id.org/digiOntoG4#Light> <http://www.w3.org/2004/02/skos/core#prefLabel> "Light" .
+# http://w3id.org/doisr/digiOntoG4#Light
+<http://w3id.org/doisr/digiOntoG4#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Light> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Dark> .
+<http://w3id.org/doisr/digiOntoG4#Light> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Light."@es .
+<http://w3id.org/doisr/digiOntoG4#Light> <http://www.w3.org/2004/02/skos/core#prefLabel> "Light" .
 # 
-# http://w3id.org/digiOntoG4#Plant
-<http://w3id.org/digiOntoG4#Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Plant> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Water> .
-<http://w3id.org/digiOntoG4#Plant> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Plant."@es .
-<http://w3id.org/digiOntoG4#Plant> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plant" .
+# http://w3id.org/doisr/digiOntoG4#Plant
+<http://w3id.org/doisr/digiOntoG4#Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Plant> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Water> .
+<http://w3id.org/doisr/digiOntoG4#Plant> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Plant."@es .
+<http://w3id.org/doisr/digiOntoG4#Plant> <http://www.w3.org/2004/02/skos/core#prefLabel> "Plant" .
 # 
-# http://w3id.org/digiOntoG4#Vaccine
-<http://w3id.org/digiOntoG4#Vaccine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Vaccine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Type> .
-<http://w3id.org/digiOntoG4#Vaccine> <http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://w3id.org/digiOntoG4#Virus> .
-<http://w3id.org/digiOntoG4#Vaccine> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Vaccine."@es .
-<http://w3id.org/digiOntoG4#Vaccine> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vaccine" .
+# http://w3id.org/doisr/digiOntoG4#Vaccine
+<http://w3id.org/doisr/digiOntoG4#Vaccine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Vaccine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Type> .
+<http://w3id.org/doisr/digiOntoG4#Vaccine> <http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://w3id.org/doisr/digiOntoG4#Virus> .
+<http://w3id.org/doisr/digiOntoG4#Vaccine> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Vaccine."@es .
+<http://w3id.org/doisr/digiOntoG4#Vaccine> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vaccine" .
 # 
-# http://w3id.org/digiOntoG4#Virus
-<http://w3id.org/digiOntoG4#Virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Type> .
-<http://w3id.org/digiOntoG4#Virus> <http://w3id.org/digiOntoG4#isStrongTypeAgainst> <http://w3id.org/digiOntoG4#Data> .
-<http://w3id.org/digiOntoG4#Virus> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Virus."@es .
-<http://w3id.org/digiOntoG4#Virus> <http://www.w3.org/2004/02/skos/core#prefLabel> "Virus" .
+# http://w3id.org/doisr/digiOntoG4#Virus
+<http://w3id.org/doisr/digiOntoG4#Virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Virus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Type> .
+<http://w3id.org/doisr/digiOntoG4#Virus> <http://w3id.org/doisr/digiOntoG4#isStrongTypeAgainst> <http://w3id.org/doisr/digiOntoG4#Data> .
+<http://w3id.org/doisr/digiOntoG4#Virus> <http://www.w3.org/2004/02/skos/core#definition> "Tipo Virus."@es .
+<http://w3id.org/doisr/digiOntoG4#Virus> <http://www.w3.org/2004/02/skos/core#prefLabel> "Virus" .
 # 
-# http://w3id.org/digiOntoG4#Water
-<http://w3id.org/digiOntoG4#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Water> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Fire> .
-<http://w3id.org/digiOntoG4#Water> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Water."@es .
-<http://w3id.org/digiOntoG4#Water> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water" .
+# http://w3id.org/doisr/digiOntoG4#Water
+<http://w3id.org/doisr/digiOntoG4#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Water> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Fire> .
+<http://w3id.org/doisr/digiOntoG4#Water> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Water."@es .
+<http://w3id.org/doisr/digiOntoG4#Water> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water" .
 # 
-# http://w3id.org/digiOntoG4#Wind
-<http://w3id.org/digiOntoG4#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://w3id.org/digiOntoG4#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/digiOntoG4#Element> .
-<http://w3id.org/digiOntoG4#Wind> <http://w3id.org/digiOntoG4#isStrongAgainst> <http://w3id.org/digiOntoG4#Earth> .
-<http://w3id.org/digiOntoG4#Wind> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Wind."@es .
-<http://w3id.org/digiOntoG4#Wind> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wind" .
+# http://w3id.org/doisr/digiOntoG4#Wind
+<http://w3id.org/doisr/digiOntoG4#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://w3id.org/doisr/digiOntoG4#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://w3id.org/doisr/digiOntoG4#Element> .
+<http://w3id.org/doisr/digiOntoG4#Wind> <http://w3id.org/doisr/digiOntoG4#isStrongAgainst> <http://w3id.org/doisr/digiOntoG4#Earth> .
+<http://w3id.org/doisr/digiOntoG4#Wind> <http://www.w3.org/2004/02/skos/core#definition> "Elemento Wind."@es .
+<http://w3id.org/doisr/digiOntoG4#Wind> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wind" .
 # 
 # 
 # 
@@ -392,6 +397,12 @@
 <http://purl.org/dc/terms/license> <http://purl.org/dc/terms/license> "https://www.apache.org/licenses/LICENSE-2.0" .
 # 
 <http://purl.org/dc/terms/title> <http://purl.org/dc/terms/title> "digiOntoG4" .
+# 
+<http://w3id.org/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es .
+<http://w3id.org/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
+# 
+<http://w3id.org/doisr/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#definition> "Relaciona un Digimon con su habilidad de soporte."@es .
+<http://w3id.org/doisr/digiOntoG4#4hasSupportSkill> <http://www.w3.org/2004/02/skos/core#prefLabel> "has support skill" .
 # 
 <http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1" .
 # 
@@ -409,13 +420,13 @@
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid1 <http://www.w3.org/2002/07/owl#members> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/digiOntoG4#MagicMove> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/doisr/digiOntoG4#MagicMove> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/digiOntoG4#PhysicalMove> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/doisr/digiOntoG4#PhysicalMove> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/digiOntoG4#SupportMove> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/doisr/digiOntoG4#SupportMove> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
